@@ -1,180 +1,168 @@
 {
   "recentFiles": [
     {
-      "basename": "LFC_20260507_Lifecycle Email Development & Data Integration",
-      "path": "03. Onboarding/LFC_20260507_Lifecycle Email Development & Data Integration.md"
-    },
-    {
-      "basename": "00 - Índice de Onboarding LFC",
-      "path": "03. Onboarding/00 - Índice de Onboarding LFC.md"
-    },
-    {
-      "basename": "HR IHG Onboarding",
-      "path": "03. Onboarding/HR IHG Onboarding.md"
-    },
-    {
-      "basename": "LFC_20260812_GALE Training - Translation Project Walkthrough",
-      "path": "03. Onboarding/LFC_20260812_GALE Training - Translation Project Walkthrough.md"
-    },
-    {
-      "basename": "Tamara",
-      "path": "06. Personas y Equipos/Tamara.md"
-    },
-    {
-      "basename": "Kamaria",
-      "path": "06. Personas y Equipos/Kamaria.md"
-    },
-    {
-      "basename": "GALE",
-      "path": "06. Personas y Equipos/GALE.md"
-    },
-    {
       "basename": "Gerardo Aviña - FY2026 Goals",
-      "path": "01. Personal/Gerardo Aviña - FY2026 Goals.md"
-    },
-    {
-      "basename": "Proceso Global de Creación de Correos Electrónicos IHG 2024",
-      "path": "02. Marketing Cloud/02.03 - Proceso/Proceso Global de Creación de Correos Electrónicos IHG 2024.md"
-    },
-    {
-      "basename": "Campaign Manager",
-      "path": "06. Personas y Equipos/Campaign Manager.md"
-    },
-    {
-      "basename": "Content Governance",
-      "path": "06. Personas y Equipos/Content Governance.md"
-    },
-    {
-      "basename": "Creative Services",
-      "path": "06. Personas y Equipos/Creative Services.md"
-    },
-    {
-      "basename": "Data Team",
-      "path": "06. Personas y Equipos/Data Team.md"
-    },
-    {
-      "basename": "Finance",
-      "path": "06. Personas y Equipos/Finance.md"
-    },
-    {
-      "basename": "2026-08-11",
-      "path": "2026-08-11.md"
-    },
-    {
-      "basename": "00 - Inicio",
-      "path": "00 - Inicio.md"
-    },
-    {
-      "basename": "Sin título 1",
-      "path": "Sin título 1.canvas"
+      "path": "Gera/01. Personal/Gerardo Aviña - FY2026 Goals.md"
     },
     {
       "basename": "Sin título",
-      "path": "Sin título.canvas"
+      "path": "Gera/Sin título.canvas"
+    },
+    {
+      "basename": "Sin título 1",
+      "path": "Gera/Sin título 1.canvas"
+    },
+    {
+      "basename": "Sin título 2",
+      "path": "Gera/Sin título 2.canvas"
     },
     {
       "basename": "Notes DB",
-      "path": "Notes DB.base"
+      "path": "Gera/Notes DB.base"
     },
     {
-      "basename": "Resumen del Proceso Completo de Campañas LFC",
-      "path": "05. Glosario/Resumen del Proceso Completo de Campañas LFC.md"
+      "basename": "2026-08-11",
+      "path": "Gera/2026-08-11.md"
     },
     {
-      "basename": "Region Language Codes",
-      "path": "03. Onboarding/Region Language Codes.md"
-    },
-    {
-      "basename": "LFC_20260623_GALE QA Test Case Methodology & Feedback Tracking",
-      "path": "03. Onboarding/LFC_20260623_GALE QA Test Case Methodology & Feedback Tracking.md"
-    },
-    {
-      "basename": "Smartling",
-      "path": "05. Glosario/Smartling.md"
-    },
-    {
-      "basename": "Glosario de Términos y Herramientas LFC",
-      "path": "05. Glosario/Glosario de Términos y Herramientas LFC.md"
-    },
-    {
-      "basename": "Anniversary Offer Completion Campaign",
-      "path": "02. Marketing Cloud/02.01 - Campaigns/Anniversary Offer Completion Campaign.md"
-    },
-    {
-      "basename": "LFC_20260505_Lifecycle Campaign Execution",
-      "path": "03. Onboarding/LFC_20260505_Lifecycle Campaign Execution.md"
-    },
-    {
-      "basename": "02 - CRF",
-      "path": "02. Marketing Cloud/02.02 - Referencia Técnica LFC/02 - CRF.md"
-    },
-    {
-      "basename": "01 - LFC (Life Cycle)",
-      "path": "02. Marketing Cloud/02.02 - Referencia Técnica LFC/01 - LFC (Life Cycle).md"
-    },
-    {
-      "basename": "00 - Marketing Cloud Onboarding",
-      "path": "02. Marketing Cloud/02.02 - Referencia Técnica LFC/00 - Marketing Cloud Onboarding.md"
-    },
-    {
-      "basename": "10 - AMPscript",
-      "path": "02. Marketing Cloud/02.02 - Referencia Técnica LFC/10 - AMPscript.md"
-    },
-    {
-      "basename": "09 - Content ID",
-      "path": "02. Marketing Cloud/02.02 - Referencia Técnica LFC/09 - Content ID.md"
-    },
-    {
-      "basename": "08 - Data Layer",
-      "path": "02. Marketing Cloud/02.02 - Referencia Técnica LFC/08 - Data Layer.md"
-    },
-    {
-      "basename": "05 - Figma Assets",
-      "path": "02. Marketing Cloud/02.02 - Referencia Técnica LFC/05 - Figma Assets.md"
-    },
-    {
-      "basename": "04 - Email Properties",
-      "path": "02. Marketing Cloud/02.02 - Referencia Técnica LFC/04 - Email Properties.md"
+      "basename": "00 - Inicio",
+      "path": "Gera/00 - Inicio.md"
     },
     {
       "basename": "LFC_20260511_Tier Translation Logic & Dynamic Content QA",
-      "path": "03. Onboarding/LFC_20260511_Tier Translation Logic & Dynamic Content QA.md"
+      "path": "Gera/03. Onboarding/LFC_20260511_Tier Translation Logic & Dynamic Content QA.md"
+    },
+    {
+      "basename": "Region Language Codes",
+      "path": "Gera/03. Onboarding/Region Language Codes.md"
+    },
+    {
+      "basename": "Raunak",
+      "path": "Gera/06. Personas y Equipos/Raunak.md"
+    },
+    {
+      "basename": "LFC_20260507_Lifecycle Email Development & Data Integration",
+      "path": "Gera/03. Onboarding/LFC_20260507_Lifecycle Email Development & Data Integration.md"
+    },
+    {
+      "basename": "00 - Índice de Onboarding LFC",
+      "path": "Gera/03. Onboarding/00 - Índice de Onboarding LFC.md"
+    },
+    {
+      "basename": "Tamara",
+      "path": "Gera/06. Personas y Equipos/Tamara.md"
+    },
+    {
+      "basename": "Kamaria",
+      "path": "Gera/06. Personas y Equipos/Kamaria.md"
+    },
+    {
+      "basename": "Campaign Manager",
+      "path": "Gera/06. Personas y Equipos/Campaign Manager.md"
+    },
+    {
+      "basename": "Content Governance",
+      "path": "Gera/06. Personas y Equipos/Content Governance.md"
+    },
+    {
+      "basename": "Creative Services",
+      "path": "Gera/06. Personas y Equipos/Creative Services.md"
+    },
+    {
+      "basename": "Data Team",
+      "path": "Gera/06. Personas y Equipos/Data Team.md"
+    },
+    {
+      "basename": "Finance",
+      "path": "Gera/06. Personas y Equipos/Finance.md"
+    },
+    {
+      "basename": "Resumen del Proceso Completo de Campañas LFC",
+      "path": "Gera/05. Glosario/Resumen del Proceso Completo de Campañas LFC.md"
+    },
+    {
+      "basename": "Smartling",
+      "path": "Gera/05. Glosario/Smartling.md"
+    },
+    {
+      "basename": "Glosario de Términos y Herramientas LFC",
+      "path": "Gera/05. Glosario/Glosario de Términos y Herramientas LFC.md"
+    },
+    {
+      "basename": "Anniversary Offer Completion Campaign",
+      "path": "Gera/02. Marketing Cloud/02.01 - Campaigns/Anniversary Offer Completion Campaign.md"
+    },
+    {
+      "basename": "LFC_20260505_Lifecycle Campaign Execution",
+      "path": "Gera/03. Onboarding/LFC_20260505_Lifecycle Campaign Execution.md"
+    },
+    {
+      "basename": "02 - CRF",
+      "path": "Gera/02. Marketing Cloud/02.02 - Referencia Técnica LFC/02 - CRF.md"
+    },
+    {
+      "basename": "01 - LFC (Life Cycle)",
+      "path": "Gera/02. Marketing Cloud/02.02 - Referencia Técnica LFC/01 - LFC (Life Cycle).md"
+    },
+    {
+      "basename": "00 - Marketing Cloud Onboarding",
+      "path": "Gera/02. Marketing Cloud/02.02 - Referencia Técnica LFC/00 - Marketing Cloud Onboarding.md"
+    },
+    {
+      "basename": "10 - AMPscript",
+      "path": "Gera/02. Marketing Cloud/02.02 - Referencia Técnica LFC/10 - AMPscript.md"
+    },
+    {
+      "basename": "09 - Content ID",
+      "path": "Gera/02. Marketing Cloud/02.02 - Referencia Técnica LFC/09 - Content ID.md"
+    },
+    {
+      "basename": "08 - Data Layer",
+      "path": "Gera/02. Marketing Cloud/02.02 - Referencia Técnica LFC/08 - Data Layer.md"
+    },
+    {
+      "basename": "05 - Figma Assets",
+      "path": "Gera/02. Marketing Cloud/02.02 - Referencia Técnica LFC/05 - Figma Assets.md"
+    },
+    {
+      "basename": "04 - Email Properties",
+      "path": "Gera/02. Marketing Cloud/02.02 - Referencia Técnica LFC/04 - Email Properties.md"
     },
     {
       "basename": "LFC_20260512_Comprehensive Onboarding for Email Campaign Development and Deployment",
-      "path": "03. Onboarding/LFC_20260512_Comprehensive Onboarding for Email Campaign Development and Deployment.md"
+      "path": "Gera/03. Onboarding/LFC_20260512_Comprehensive Onboarding for Email Campaign Development and Deployment.md"
     },
     {
       "basename": "21 - HTML & CSS para Email",
-      "path": "02. Marketing Cloud/02.02 - Referencia Técnica LFC/21 - HTML & CSS para Email.md"
+      "path": "Gera/02. Marketing Cloud/02.02 - Referencia Técnica LFC/21 - HTML & CSS para Email.md"
     },
     {
       "basename": "Nota Estándar",
-      "path": "00. Sistema/Plantillas/Nota Estándar.md"
+      "path": "Gera/00. Sistema/Plantillas/Nota Estándar.md"
     },
     {
       "basename": "LFC_20260508_Lifecycle Email Build & Journey Setup",
-      "path": "03. Onboarding/LFC_20260508_Lifecycle Email Build & Journey Setup.md"
+      "path": "Gera/03. Onboarding/LFC_20260508_Lifecycle Email Build & Journey Setup.md"
     },
     {
       "basename": "LFC_20260508_Marketing Cloud Journey Monitoring & Reporting",
-      "path": "03. Onboarding/LFC_20260508_Marketing Cloud Journey Monitoring & Reporting.md"
+      "path": "Gera/03. Onboarding/LFC_20260508_Marketing Cloud Journey Monitoring & Reporting.md"
     },
     {
       "basename": "11 - TreatAsContent",
-      "path": "02. Marketing Cloud/02.02 - Referencia Técnica LFC/11 - TreatAsContent.md"
+      "path": "Gera/02. Marketing Cloud/02.02 - Referencia Técnica LFC/11 - TreatAsContent.md"
     },
     {
       "basename": "13 - Dynamic Date Block",
-      "path": "02. Marketing Cloud/02.02 - Referencia Técnica LFC/13 - Dynamic Date Block.md"
+      "path": "Gera/02. Marketing Cloud/02.02 - Referencia Técnica LFC/13 - Dynamic Date Block.md"
     },
     {
       "basename": "07 - Subject & Preheader Localization",
-      "path": "02. Marketing Cloud/02.02 - Referencia Técnica LFC/07 - Subject & Preheader Localization.md"
+      "path": "Gera/02. Marketing Cloud/02.02 - Referencia Técnica LFC/07 - Subject & Preheader Localization.md"
     },
     {
       "basename": "03 - Email Build Process",
-      "path": "02. Marketing Cloud/02.02 - Referencia Técnica LFC/03 - Email Build Process.md"
+      "path": "Gera/02. Marketing Cloud/02.02 - Referencia Técnica LFC/03 - Email Build Process.md"
     }
   ],
   "omittedPaths": [],

@@ -344,15 +344,15 @@
       "item-2-57",
       "item-2-64"
     ],
-    "scroll": 0,
+    "scroll": 88.96874923176236,
     "cursor": {
       "from": {
-        "line": 523,
-        "ch": 0
+        "line": 79,
+        "ch": 148
       },
       "to": {
-        "line": 523,
-        "ch": 0
+        "line": 79,
+        "ch": 148
       }
     }
   },
@@ -421,7 +421,7 @@
         "ch": 87
       }
     },
-    "scroll": 0
+    "scroll": 122.08621125300702
   },
   "00. Sistema/Plantillas/Nota Estándar.md": {
     "expandedKeys": [
@@ -569,16 +569,18 @@
     "scroll": 7.320754716981132
   },
   "2026-08-11.md": {
-    "expandedKeys": [],
-    "scroll": 0,
+    "expandedKeys": [
+      "item-1-0"
+    ],
+    "scroll": 19.632875598733328,
     "cursor": {
       "from": {
-        "line": 1,
-        "ch": 161
+        "line": 26,
+        "ch": 12
       },
       "to": {
-        "line": 1,
-        "ch": 161
+        "line": 26,
+        "ch": 12
       }
     }
   },
@@ -717,14 +719,64 @@
     ],
     "cursor": {
       "from": {
-        "line": 23,
+        "line": 34,
+        "ch": 181
+      },
+      "to": {
+        "line": 34,
+        "ch": 181
+      }
+    },
+    "scroll": 22.34285714285714
+  },
+  "06. Personas y Equipos/Ronica.md": {
+    "cursor": {
+      "from": {
+        "line": 14,
+        "ch": 14
+      },
+      "to": {
+        "line": 14,
+        "ch": 14
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ],
+    "scroll": 0
+  },
+  "06. Personas y Equipos/Raunak.md": {
+    "cursor": {
+      "from": {
+        "line": 9,
         "ch": 0
       },
       "to": {
-        "line": 23,
+        "line": 9,
         "ch": 0
       }
     },
-    "scroll": 42.06206480662028
+    "expandedKeys": [
+      "item-1-0"
+    ],
+    "scroll": 0
+  },
+  "Gera/01. Personal/Gerardo Aviña - FY2026 Goals.md": {
+    "expandedKeys": [
+      "item-1-0",
+      "item-1-2",
+      "item-2-3"
+    ],
+    "cursor": {
+      "from": {
+        "line": 23,
+        "ch": 2
+      },
+      "to": {
+        "line": 23,
+        "ch": 2
+      }
+    },
+    "scroll": 0
   }
 }
