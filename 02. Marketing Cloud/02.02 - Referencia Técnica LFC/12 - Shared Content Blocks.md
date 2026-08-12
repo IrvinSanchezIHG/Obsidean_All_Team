@@ -71,8 +71,4 @@ Buscar si ya existe.
 
   
 
-#ContentBlocks  
-
-#ReusableComponents  
-
-#Localization
+`#content-blocks #reusable-components #localization`

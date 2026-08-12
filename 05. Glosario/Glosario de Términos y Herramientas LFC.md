@@ -57,7 +57,7 @@ status: Active
 | **Google Translate** | Se usa únicamente como doble-chequeo interno, nunca como referencia oficial. |
 | **SharePoint (IHG)** | Repositorio donde se archivan los Deployment Plans históricos, por campaña. |
 | **Smartsheet** | Herramienta para el work-back schedule y el feedback tracker de QA. |
-| **Email on Acid / Litmus / Inbox Monster** | Herramientas de rendering cross-cliente y cross-dispositivo — permiten validar cómo se ve un email en combinaciones de cliente/SO/modo oscuro sin tener cada dispositivo físico. |
+| **Email on Acid / Litmus / Inbox Monster** | Herramientas de rendering cross-cliente y cross-dispositivo — permiten validar cómo se ve un email en combinaciones de cliente/SO/modo oscuro sin tener cada dispositivo físico. **Litmus está visible dentro del tab Preview and Test de SFMC, pero el equipo no tiene acceso** — por eso la herramienta realmente usada para esto es Email on Acid (junto con Inbox Monster del lado IHG). |
 | **Text compare tool** | Herramienta para comparar bloques de texto largos (ej. Terms & Conditions) contra el Figma, resaltando diferencias palabra por palabra. |
 | **Tableau** | Herramienta de monitoreo/reporting post-envío — ventana crítica de revisión: primeras 24 horas. |
 | **ServiceNow (mySupport)** | Portal corporativo de soporte de IHG — tickets, solicitudes de acceso, incidentes. |

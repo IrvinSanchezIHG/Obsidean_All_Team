@@ -22,6 +22,7 @@ Mapa de las personas, equipos y roles involucrados en el proceso Lifecycle Campa
 | [[Francisco]] | QA | IHG (GDL) |
 | [[Anu]] | Ejecución / Desarrollo | GALE |
 | [[Kapil]] | Project Manager | GALE |
+| [[Aruni Patel]] | Traducción y Localización (SFMC) | GALE |
 | [[Kamaria]] | Proceso / Revisión | IHG |
 | [[Laura]] | Accesibilidad (ADA) | IHG |
 | [[Ronica]] | Data / GT | IHG |

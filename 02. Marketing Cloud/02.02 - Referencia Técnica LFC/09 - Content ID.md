@@ -69,8 +69,4 @@ Selección de contenido
 
   
 
-#ContentID  
-
-#DynamicContent  
-
-#Personalization
+`#content-id #dynamic-content #personalization`

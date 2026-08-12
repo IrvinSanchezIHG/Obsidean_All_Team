@@ -103,10 +103,4 @@ Controla:
 
   
 
-#EmailProperties  
-
-#Localization  
-
-#MRMID  
-
-#Tracking
+`#email-properties #localization #mrm-id #tracking`

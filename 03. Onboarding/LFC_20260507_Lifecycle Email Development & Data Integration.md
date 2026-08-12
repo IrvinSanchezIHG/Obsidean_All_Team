@@ -183,7 +183,7 @@ Relacionado: [[#Paso 2 Ubicar dónde vive cada cosa (estructura de carpetas)|Pas
 
 ## Paso 4: Confirmar que la campaña está lista para construir (Definition of Ready)
 
-#definition-of-ready #requisitos #crf
+#definition-of-ready #requirements #crf
 
 No debe iniciarse un build solo porque alguien lo pidió en un chat. Una campaña LFC está lista solo cuando se conocen: stage, canal, DE de entrada, requisitos del asset, variables dinámicas y timing de lanzamiento.
 
@@ -410,7 +410,7 @@ Relacionado: [[#Paso 5 Construir un Email desde cero|Paso 5 · Build de Email]] 
 
 ## Paso 9: Ejecutar el proceso de traducción y localización
 
-#localizacion #smartling #traduccion
+#localization #smartling #translations
 
 Para campañas multilingües, la traducción es un workstream estructurado, no un extra opcional. El proceso típico es:
 
@@ -671,7 +671,7 @@ Relacionado: [[#Paso 8 Aplicar las reglas compartidas de Data Extensions|Paso 8 
 
 ## Paso 18: Consultar los recursos y documentación de referencia
 
-#documentacion #sharepoint
+#documentation #sharepoint
 
 Además de este manual, el equipo mantiene un ecosistema de documentos de referencia en SharePoint. Vale la pena conocer qué contiene cada uno para saber dónde buscar antes de preguntar.
 

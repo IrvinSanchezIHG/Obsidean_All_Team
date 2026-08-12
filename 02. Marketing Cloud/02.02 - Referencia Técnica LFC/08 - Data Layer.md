@@ -72,10 +72,4 @@ Equipo de Data.
 
   
 
-#DataLayer  
-
-#CustomFields  
-
-#DataExtensions  
-
-#Personalization
+`#data-layer #custom-fields #data-extensions #personalization`

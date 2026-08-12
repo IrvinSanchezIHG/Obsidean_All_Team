@@ -65,10 +65,4 @@ Interpretar contenido dinámico almacenado en variables.
 
   
 
-#AMPscript  
-
-#TreatAsContent  
-
-#SubjectLine  
-
-#Preheader
+`#ampscript #treatascontent #subject-line #preheader`

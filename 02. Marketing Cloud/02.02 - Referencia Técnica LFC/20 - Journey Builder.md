@@ -59,4 +59,4 @@ La validación de la plataforma solo confirma que el setup es técnicamente acep
 [[LFC_20260507_Lifecycle Email Development & Data Integration#Paso 7: Construir el Journey desde cero|Manual de Onboarding – Paso 7]]
 [[LFC_20260508_Marketing Cloud Journey Monitoring & Reporting]]
 
-#journeybuilder #entrysource #sfmc #qa
+`#journey-builder #entry-source #sfmc #qa`

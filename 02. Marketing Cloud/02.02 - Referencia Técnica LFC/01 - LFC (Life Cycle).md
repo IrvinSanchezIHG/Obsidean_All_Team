@@ -109,12 +109,4 @@ Monitoring
 
   
 
-#LFC  
-
-#LifeCycle  
-
-#MarketingCloud  
-
-#GALE  
-
-#KnowledgeBase
+`#lfc #sfmc #gale #knowledge-base`

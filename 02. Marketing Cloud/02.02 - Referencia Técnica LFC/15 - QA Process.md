@@ -74,8 +74,4 @@ Sin realizar envíos.
 
   
 
-#QA  
-
-#Preview  
-
-#Validation
+`#qa #preview #validation`

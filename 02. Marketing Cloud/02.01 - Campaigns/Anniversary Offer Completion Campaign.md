@@ -5,7 +5,7 @@ status: Draft
 tags:
   - ihg
   - sfmc
-  - lifecycle
+  - lfc
   - ihg-one-rewards
   - governance
   - mrm

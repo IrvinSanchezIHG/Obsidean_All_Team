@@ -6,6 +6,7 @@ tags:
   - lfc
   - onboarding
   - index
+  - moc
 created: 2026-08-09
 status: Active
 ---
@@ -33,6 +34,7 @@ Punto de entrada al onboarding de Guadalajara para la cuenta IHG: contexto de ne
 | 2026-05-11 | [[LFC_20260511_Tier Translation Logic & Dynamic Content QA]] | Traducción dinámica de tier, singular/plural, módulo condicional Chase Card, QA de HTML/CSS |
 | 2026-05-12 | [[LFC_20260512_Comprehensive Onboarding for Email Campaign Development and Deployment]] | Flujo completo de traducción vía Smartling, journey práctico, Deployment Plan, Golden Hour/End of Day Check, casos reales de Points Expiration y Data Cloud |
 | 2026-06-23 | [[LFC_20260623_GALE QA Test Case Methodology & Feedback Tracking]] | Metodología de test cases del equipo GALE, validación de contenido/links/accesibilidad/rendering, QA de idiomas, revisión de journey sin test cases, feedback tracker en Smartsheet |
+| 2026-08-12 | [[LFC_20260812_GALE Training - Translation Project Walkthrough]] | Proceso post-Smartling: renombrado, propiedades, AMPscript, Link Matrix, dummy data, testing en Email on Acid, regla de timing y regla USCN |
 
 ## Relacionado
 

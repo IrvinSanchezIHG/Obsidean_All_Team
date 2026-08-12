@@ -177,7 +177,7 @@ Relacionado: [[Data Layer]] · [[QA Process]]
 
 - Los tres emails de esta campaña (registro, booking, completion) quedaron completos al cierre de la sesión.
 - Plan para la siguiente sesión: walkthrough del proceso de **envío a traducción** (se salta proofing ese día para ir directo a esa parte con Alex), y después continuar con el **build del journey**.
-- Aruni se integraría específicamente para la parte de traducciones.
+- Aruni se integraría específicamente para la parte de traducciones — ver [[LFC_20260812_GALE Training - Translation Project Walkthrough]].
 - Regla general reforzada varias veces en la sesión: **cambiar una sola cosa a la vez** al depurar un error — cuando se cambian varias cosas simultáneamente y el error desaparece, no queda claro cuál cambio fue el que realmente lo resolvió.
 
 ## Relacionado

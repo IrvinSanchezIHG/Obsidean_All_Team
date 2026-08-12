@@ -4,7 +4,7 @@ tags:
   - email-marketing
   - ihg
   - gale
-  - documentacion
+  - documentation
 created: 2026-08-07
 status: Active
 ---
@@ -22,7 +22,7 @@ Nota resumen del documento de capacitación de Gale/IHG sobre el proceso de crea
 
 ## 1. Nomenclatura y estructura
 
-#nomenclatura #content-builder **Responsable:** [[Desarrollador de Correo]] (Email Developer) — el documento no asigna un dueño explícito para este paso; se infiere del rol que ejecuta la carga en [[Content Builder]].
+#naming-convention #content-builder **Responsable:** [[Desarrollador de Correo]] (Email Developer) — el documento no asigna un dueño explícito para este paso; se infiere del rol que ejecuta la carga en [[Content Builder]].
 
 - Estructura de carpetas: categoría > región > año > mes > carpeta del correo.
 - Convenciones de nombre para [[Correo Electrónico]], [[DataExtension]] y [[Push Message]].
@@ -55,7 +55,7 @@ Relacionado: [[Bloque de Configuración de Campaña]] · [[Ampscript]]
 
 ## 4. Personalización dinámica
 
-#ampscript #personalizacion **Responsable:** [[Desarrollador de Correo]] (Email Developer) — escribe la lógica de Ampscript. No especificado explícitamente en el documento.
+#ampscript #personalization **Responsable:** [[Desarrollador de Correo]] (Email Developer) — escribe la lógica de Ampscript. No especificado explícitamente en el documento.
 
 - Líneas de asunto y preencabezados: personalización simple, condiciones IF/ELSE, y combinaciones con variables.
 - [[Bloques Dinámicos]]: lógica de mostrar/no mostrar contenido y contenido variable según condiciones (`memlvl`, `contentid`, etc.).
@@ -66,7 +66,7 @@ Relacionado: [[Ampscript]] · [[Content Builder]]
 
 #enlaces #tracking **Responsable:** [[Desarrollador de Correo]] (Email Developer) — arma los enlaces y etiquetas alias. La revisión final ("click test") queda a cargo de la audiencia/partes interesadas, según el paso de QA.
 
-- Composición del enlace: url base + atributo de idioma/región (`@linkhelper_rgn_lang`) + url de extensión.
+- Composición del enlace: url base + atributo de idioma/región (`@linkhelper_rgn_lang`) + url de extensión. Detalle de la Data Extension que alimenta esta variable en [[Link Matrix (LinkHelper)]].
 - Parámetro combinado `@track_param` (aa_tag_base, aa_tag_version, SENDURLID, parámetro de [[Movable Ink]]).
 - Convenciones de nomenclatura para etiquetas **alias** (header, footer, módulos, regiones de impresión).
 - Cómo agregar alias en editor WYSIWYG y en editor HTML.
@@ -76,7 +76,7 @@ Relacionado: [[Regiones de Impresión]] · [[Ampscript]]
 
 ## 6. QA y localización
 
-#qa #localizacion #smartling **Responsables (múltiples, mencionados en el documento):**
+#qa #localization #smartling **Responsables (múltiples, mencionados en el documento):**
 
 - [[Equipo de Analítica]] — define el uso de palabras como TEST/SEED/PROOF para diferenciar pruebas de envíos reales.
 - [[Equipo de Efectividad de Medios Propios]] (Owned Media Effectiveness) — punto de contacto para dudas sobre regiones de impresión.
@@ -121,4 +121,4 @@ Relacionado: [[Enlaces y Tracking]] · [[Nomenclatura y Estructura]]
 
 > [!note] El documento fuente solo nombra explícitamente al **equipo creativo**, al **equipo de analítica** y al **equipo de efectividad de medios propios**. Los demás roles se infieren del contexto (quien ejecuta cada acción), no de una asignación formal documentada.
 ![[proceso_ihg_con_responsables.png]]
-#resumen #proceso #ihg #g
+#resumen #proceso #ihg

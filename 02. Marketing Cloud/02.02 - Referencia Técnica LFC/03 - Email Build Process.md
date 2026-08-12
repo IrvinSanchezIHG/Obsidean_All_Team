@@ -84,10 +84,4 @@ GALE Master LFC Template
 
   
 
-#EmailBuild  
-
-#LFC  
-
-#GALE  
-
-#MarketingCloud
+`#email-build #lfc #gale #sfmc`

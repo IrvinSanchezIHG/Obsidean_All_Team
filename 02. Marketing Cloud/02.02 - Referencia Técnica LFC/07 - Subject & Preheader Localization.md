@@ -73,6 +73,10 @@ Almacena:
 
   
 
+## Variantes por Content ID
+
+Un mismo email puede tener varios subject lines/preheaders controlados por [[Content ID]] (ej. `B1`, `B2`, `A1`, `A2`). Para traducir cada variante: Smartling llena el documento de traducciones → el desarrollador identifica el Content ID correspondiente → copia manualmente esa traducción al AMPscript. Ver [[LFC_20260812_GALE Training - Translation Project Walkthrough]].
+
 ## Relacionado  
 
   
@@ -87,10 +91,4 @@ Almacena:
 
   
 
-#SubjectLine  
-
-#Preheader  
-
-#Localization  
-
-#TranslationDE
+`#subject-line #preheader #localization #translation-de`

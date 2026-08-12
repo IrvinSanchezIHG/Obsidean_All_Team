@@ -6,7 +6,7 @@ tags:
   - usali
   - opera-pms
   - business-edge
-  - marketing-cloud
+  - sfmc
   - revenue-management
   - hotel-lifecycle
   - ihg-one-rewards
@@ -24,7 +24,7 @@ status: Active
 > WHERE file.path != this.file.path
 > ```
 
-`#ihg #hoteleria #finance #usali #opera-pms #business-edge #marketing-cloud #revenue-management #hotel-lifecycle #ihg-one-rewards #lifecycle-marketing`
+`#ihg #hoteleria #finance #usali #opera-pms #business-edge #sfmc #revenue-management #hotel-lifecycle #ihg-one-rewards #lifecycle-marketing`
 
 ---
 

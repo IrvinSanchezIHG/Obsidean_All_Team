@@ -77,6 +77,10 @@ Debe copiarse exactamente.
 
   
 
+## Link/URL Matrix
+
+El contenido del URL matrix (qué URL corresponde a cada mercado/idioma) lo entrega el **Campaign Team de IHG**, según explicó [[Aruni Patel]] — se integra al CRF que arma el Business Analyst. La implementación técnica como Data Extension en SFMC vive en [[Link Matrix (LinkHelper)]].
+
 ## Relacionado  
 
   
@@ -89,16 +93,12 @@ Debe copiarse exactamente.
 
 [[Translation Workflow]]  
 
+[[Link Matrix (LinkHelper)]]  
+
 [[2026-08-11|Dudas de Estudio — CRF y List Pull]]  
 
 [[Ronica]]  
 
   
 
-#CRF  
-
-#Requirements  
-
-#Lifecycle  
-
-#MarketingCloud
+`#crf #requirements #lfc #sfmc`

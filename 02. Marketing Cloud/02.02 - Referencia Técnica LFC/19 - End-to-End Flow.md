@@ -34,6 +34,10 @@ USEN Build
 
 ↓  
 
+QA + Aprobación interna + Aprobación Campaign Team (no enviar a traducción antes de esto)
+
+↓  
+
 Smartling  
 
 ↓  
@@ -122,14 +126,4 @@ Campaign Closure
 
   
 
-#LFC  
-
-#LifeCycle  
-
-#EndToEnd  
-
-#MarketingCloud  
-
-#GALE  
-
-#SFMC
+`#lfc #sfmc #end-to-end #gale`

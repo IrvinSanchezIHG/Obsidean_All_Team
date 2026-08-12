@@ -93,10 +93,4 @@ Primeras 24 horas.
 
   
 
-#Monitoring  
-
-#Tableau  
-
-#Analytics  
-
-#Performance
+`#monitoring #tableau #analytics #performance`

@@ -709,5 +709,22 @@
       }
     },
     "scroll": 2.5468749403953552
+  },
+  "03. Onboarding/LFC_20260812_GALE Training - Translation Project Walkthrough.md": {
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-2"
+    ],
+    "cursor": {
+      "from": {
+        "line": 23,
+        "ch": 0
+      },
+      "to": {
+        "line": 23,
+        "ch": 0
+      }
+    },
+    "scroll": 42.06206480662028
   }
 }

@@ -78,10 +78,4 @@ Algunos Figma contienen:
 
   
 
-#Figma  
-
-#Assets  
-
-#Creative  
-
-#EmailBuild
+`#figma #assets #creative #email-build`

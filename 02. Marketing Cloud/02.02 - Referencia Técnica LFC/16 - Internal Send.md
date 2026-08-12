@@ -68,8 +68,4 @@ Validar experiencia real.
 
   
 
-#InternalSend  
-
-#QA  
-
-#Testing
+`#internal-send #qa #testing`

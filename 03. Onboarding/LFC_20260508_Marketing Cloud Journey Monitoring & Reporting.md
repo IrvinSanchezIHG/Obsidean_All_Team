@@ -4,7 +4,7 @@ tags:
   - lfc
   - sfmc
   - journey-builder
-  - monitoreo
+  - monitoring
   - onboarding
 source: LFC_Training-20260508_095731-Meeting_Recording_1
 aliases:
