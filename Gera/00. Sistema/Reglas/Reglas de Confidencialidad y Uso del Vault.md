@@ -56,6 +56,15 @@ Si se encuentra contenido ya guardado en el vault que rompe alguna de estas regl
 2. No corregirlo ni eliminarlo unilateralmente sin confirmar — puede ser información que el usuario necesita revisar antes de decidir cómo tratarla.
 3. No incluir ese contenido tal cual en ningún resumen, artifact o mensaje mientras no se resuelva.
 
+## 6. Cómo se garantiza que la IA la vea siempre
+
+Para que cualquier modelo o asistente de IA que trabaje con este repositorio (no solo uno en particular) esté al tanto de estas reglas sin depender de que alguien las mencione manualmente, existen dos puntos de entrada adicionales en la raíz del repositorio (fuera de `Gera/`):
+
+- **`CLAUDE.md`** — instrucciones de proyecto que Claude Code carga automáticamente al iniciar sesión sobre este repositorio; incluye el resumen de estas reglas.
+- **`README.md`** — lo primero que muestra GitHub al abrir el repositorio, con un aviso explícito dirigido a "cualquier persona o sistema de IA" que lo lea, enlazando de vuelta a esta nota.
+
+Si se agrega otra integración de IA a este vault en el futuro (plugin de Obsidian, otro agente, etc.), su archivo de configuración/instrucciones correspondiente debería enlazar aquí también.
+
 ## Relacionado
 
 [[La agencia]]
