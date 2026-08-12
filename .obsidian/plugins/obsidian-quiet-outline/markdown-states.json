@@ -1,0 +1,713 @@
+{
+  "2026-08-09.md": {
+    "expandedKeys": []
+  },
+  "00 - Inicio.md": {
+    "expandedKeys": [
+      "item-1-0"
+    ],
+    "cursor": {
+      "from": {
+        "line": 7,
+        "ch": 0
+      },
+      "to": {
+        "line": 7,
+        "ch": 0
+      }
+    },
+    "scroll": 0
+  },
+  "03. Onboarding/Manual de Onboarding para Desarrolladores LFC.md": {
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-4",
+      "item-2-12",
+      "item-2-22",
+      "item-2-27",
+      "item-2-34",
+      "item-2-41",
+      "item-2-45",
+      "item-2-52"
+    ],
+    "cursor": {
+      "from": {
+        "line": 27,
+        "ch": 0
+      },
+      "to": {
+        "line": 27,
+        "ch": 0
+      }
+    },
+    "scroll": 0
+  },
+  "03. Onboarding/LFC_20260508_Marketing Cloud Journey Monitoring & Reporting.md": {
+    "expandedKeys": [
+      "item-1-0"
+    ],
+    "cursor": {
+      "from": {
+        "line": 14,
+        "ch": 0
+      },
+      "to": {
+        "line": 14,
+        "ch": 0
+      }
+    },
+    "scroll": 42.83635311603
+  },
+  "03. Onboarding/LFC_20260505_Lifecycle Campaign Execution.md": {
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-2",
+      "item-2-11"
+    ],
+    "cursor": {
+      "from": {
+        "line": 70,
+        "ch": 39
+      },
+      "to": {
+        "line": 70,
+        "ch": 39
+      }
+    },
+    "scroll": 179.2734575579106
+  },
+  "03. Onboarding/HR IHG Onboarding.md": {
+    "expandedKeys": [
+      "item-1-3",
+      "item-1-6",
+      "item-2-12",
+      "item-1-11",
+      "item-1-18",
+      "item-1-25",
+      "item-1-28",
+      "item-2-31",
+      "item-1-38",
+      "item-1-43"
+    ],
+    "cursor": {
+      "from": {
+        "line": 15,
+        "ch": 0
+      },
+      "to": {
+        "line": 15,
+        "ch": 0
+      }
+    },
+    "scroll": 367.71786737442017
+  },
+  "03. Onboarding/00 - Índice de Onboarding LFC.md": {
+    "expandedKeys": [
+      "item-1-0"
+    ],
+    "cursor": {
+      "from": {
+        "line": 11,
+        "ch": 0
+      },
+      "to": {
+        "line": 11,
+        "ch": 0
+      }
+    },
+    "scroll": 26.48931144278027
+  },
+  "02. Marketing Cloud/02.03 - Proceso/Proceso Global de Creación de Correos Electrónicos IHG 2024.md": {
+    "expandedKeys": [
+      "item-1-0"
+    ],
+    "cursor": {
+      "from": {
+        "line": 10,
+        "ch": 0
+      },
+      "to": {
+        "line": 10,
+        "ch": 0
+      }
+    },
+    "scroll": 31.476128260294598
+  },
+  "02. Marketing Cloud/02.02 - Referencia Técnica LFC/00 - Marketing Cloud Onboarding.md": {
+    "expandedKeys": [
+      "item-1-3",
+      "item-1-5",
+      "item-1-10"
+    ],
+    "cursor": {
+      "from": {
+        "line": 12,
+        "ch": 0
+      },
+      "to": {
+        "line": 12,
+        "ch": 0
+      }
+    },
+    "scroll": 176.53788328493516
+  },
+  "02. Marketing Cloud/02.02 - Referencia Técnica LFC/01 - LFC (Life Cycle).md": {
+    "expandedKeys": [
+      "item-1-0"
+    ],
+    "cursor": {
+      "from": {
+        "line": 11,
+        "ch": 0
+      },
+      "to": {
+        "line": 11,
+        "ch": 0
+      }
+    },
+    "scroll": 107.28949944178264
+  },
+  "02. Marketing Cloud/02.02 - Referencia Técnica LFC/02 - CRF.md": {
+    "expandedKeys": [
+      "item-1-0"
+    ],
+    "cursor": {
+      "from": {
+        "line": 11,
+        "ch": 0
+      },
+      "to": {
+        "line": 11,
+        "ch": 0
+      }
+    },
+    "scroll": 87.27082943916321
+  },
+  "02. Marketing Cloud/02.02 - Referencia Técnica LFC/03 - Email Build Process.md": {
+    "expandedKeys": [],
+    "cursor": {
+      "from": {
+        "line": 12,
+        "ch": 0
+      },
+      "to": {
+        "line": 12,
+        "ch": 0
+      }
+    }
+  },
+  "02. Marketing Cloud/02.02 - Referencia Técnica LFC/05 - Figma Assets.md": {
+    "expandedKeys": [
+      "item-1-0"
+    ],
+    "cursor": {
+      "from": {
+        "line": 12,
+        "ch": 0
+      },
+      "to": {
+        "line": 12,
+        "ch": 0
+      }
+    },
+    "scroll": 51.583984375
+  },
+  "02. Marketing Cloud/02.02 - Referencia Técnica LFC/07 - Subject & Preheader Localization.md": {
+    "expandedKeys": [],
+    "cursor": {
+      "from": {
+        "line": 11,
+        "ch": 0
+      },
+      "to": {
+        "line": 11,
+        "ch": 0
+      }
+    }
+  },
+  "02. Marketing Cloud/02.02 - Referencia Técnica LFC/10 - AMPscript.md": {
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-2"
+    ],
+    "cursor": {
+      "from": {
+        "line": 76,
+        "ch": 149
+      },
+      "to": {
+        "line": 76,
+        "ch": 149
+      }
+    },
+    "scroll": 69.45008166631062
+  },
+  "02. Marketing Cloud/02.02 - Referencia Técnica LFC/13 - Dynamic Date Block.md": {
+    "expandedKeys": [],
+    "cursor": {
+      "from": {
+        "line": 10,
+        "ch": 0
+      },
+      "to": {
+        "line": 10,
+        "ch": 0
+      }
+    }
+  },
+  "02. Marketing Cloud/02.02 - Referencia Técnica LFC/11 - TreatAsContent.md": {
+    "expandedKeys": [],
+    "cursor": {
+      "from": {
+        "line": 11,
+        "ch": 0
+      },
+      "to": {
+        "line": 11,
+        "ch": 0
+      }
+    }
+  },
+  "02. Marketing Cloud/02.01 - Campaigns/Anniversary Offer Completion Campaign.md": {
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-5"
+    ],
+    "cursor": {
+      "from": {
+        "line": 32,
+        "ch": 2
+      },
+      "to": {
+        "line": 32,
+        "ch": 2
+      }
+    },
+    "scroll": 49.84244751930237
+  },
+  "01. Personal/Gerardo Aviña - FY2026 Goals.md": {
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-3",
+      "item-1-2",
+      "item-2-8",
+      "item-1-7",
+      "item-2-13",
+      "item-1-12",
+      "item-2-18",
+      "item-1-17",
+      "item-1-24",
+      "item-1-30"
+    ],
+    "cursor": {
+      "from": {
+        "line": 22,
+        "ch": 0
+      },
+      "to": {
+        "line": 22,
+        "ch": 0
+      }
+    },
+    "scroll": 0
+  },
+  "02. Marketing Cloud/02.02 - Referencia Técnica LFC/09 - Content ID.md": {
+    "expandedKeys": [
+      "item-1-0"
+    ],
+    "cursor": {
+      "from": {
+        "line": 47,
+        "ch": 0
+      },
+      "to": {
+        "line": 47,
+        "ch": 0
+      }
+    },
+    "scroll": 59.538774393121095
+  },
+  "2026-08-07.md": {
+    "expandedKeys": []
+  },
+  "03. Onboarding/LFC_20260507_Lifecycle Email Development & Data Integration.md": {
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-4",
+      "item-2-12",
+      "item-2-22",
+      "item-2-27",
+      "item-2-34",
+      "item-2-41",
+      "item-2-45",
+      "item-2-52",
+      "item-2-57",
+      "item-2-64"
+    ],
+    "scroll": 682.7897651245552,
+    "cursor": {
+      "from": {
+        "line": 523,
+        "ch": 0
+      },
+      "to": {
+        "line": 523,
+        "ch": 0
+      }
+    }
+  },
+  "Smartling.md": {
+    "expandedKeys": [],
+    "scroll": 0
+  },
+  "05. Glosario/Smartling.md": {
+    "expandedKeys": [
+      "item-1-0"
+    ],
+    "cursor": {
+      "from": {
+        "line": 11,
+        "ch": 0
+      },
+      "to": {
+        "line": 11,
+        "ch": 0
+      }
+    },
+    "scroll": 0
+  },
+  "03. Onboarding/LFC_20260508_Lifecycle Email Build & Journey Setup.md": {
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-8"
+    ],
+    "cursor": {
+      "from": {
+        "line": 17,
+        "ch": 0
+      },
+      "to": {
+        "line": 17,
+        "ch": 0
+      }
+    },
+    "scroll": 0
+  },
+  "03. Onboarding/Sin título.md": {
+    "expandedKeys": [],
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 1,
+        "ch": 0
+      },
+      "to": {
+        "line": 1,
+        "ch": 0
+      }
+    }
+  },
+  "03. Onboarding/LFC_20260511_Tier Translation Logic & Dynamic Content QA.md": {
+    "expandedKeys": [
+      "item-1-0"
+    ],
+    "cursor": {
+      "from": {
+        "line": 133,
+        "ch": 87
+      },
+      "to": {
+        "line": 133,
+        "ch": 87
+      }
+    },
+    "scroll": 0
+  },
+  "00. Sistema/Plantillas/Nota Estándar.md": {
+    "expandedKeys": [
+      "item-1-0"
+    ],
+    "cursor": {
+      "from": {
+        "line": 6,
+        "ch": 0
+      },
+      "to": {
+        "line": 6,
+        "ch": 0
+      }
+    },
+    "scroll": 0
+  },
+  "02. Marketing Cloud/02.02 - Referencia Técnica LFC/21 - HTML & CSS para Email.md": {
+    "expandedKeys": [
+      "item-1-0"
+    ],
+    "cursor": {
+      "from": {
+        "line": 17,
+        "ch": 0
+      },
+      "to": {
+        "line": 17,
+        "ch": 0
+      }
+    },
+    "scroll": 0
+  },
+  "03. Onboarding/LFC_20260512_Comprehensive Onboarding for Email Campaign Development and Deployment.md": {
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-1",
+      "item-2-9",
+      "item-2-18",
+      "item-2-24",
+      "item-2-29"
+    ],
+    "cursor": {
+      "from": {
+        "line": 305,
+        "ch": 0
+      },
+      "to": {
+        "line": 305,
+        "ch": 0
+      }
+    },
+    "scroll": 285.6767578125
+  },
+  "03. Onboarding/LFC_20260623_GALE QA Test Case Methodology & Feedback Tracking.md": {
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-6",
+      "item-2-12",
+      "item-2-9",
+      "item-2-4"
+    ],
+    "cursor": {
+      "from": {
+        "line": 21,
+        "ch": 0
+      },
+      "to": {
+        "line": 21,
+        "ch": 0
+      }
+    },
+    "scroll": 0
+  },
+  "05. Glosario/Resumen del Proceso Completo de Campañas LFC.md": {
+    "expandedKeys": [
+      "item-1-0"
+    ],
+    "cursor": {
+      "from": {
+        "line": 50,
+        "ch": 189
+      },
+      "to": {
+        "line": 50,
+        "ch": 189
+      }
+    },
+    "scroll": 0
+  },
+  "05. Glosario/Glosario de Términos y Herramientas LFC.md": {
+    "expandedKeys": [
+      "item-1-0"
+    ],
+    "cursor": {
+      "from": {
+        "line": 128,
+        "ch": 0
+      },
+      "to": {
+        "line": 128,
+        "ch": 0
+      }
+    },
+    "scroll": 111.78123394648235
+  },
+  "02. Marketing Cloud/02.02 - Referencia Técnica LFC/04 - Email Properties.md": {
+    "expandedKeys": [
+      "item-1-0"
+    ],
+    "cursor": {
+      "from": {
+        "line": 11,
+        "ch": 0
+      },
+      "to": {
+        "line": 11,
+        "ch": 0
+      }
+    },
+    "scroll": 0
+  },
+  "Translation Workflow.md": {
+    "expandedKeys": [],
+    "scroll": 0
+  },
+  "CRF.md": {
+    "expandedKeys": [],
+    "scroll": 0
+  },
+  "02. Marketing Cloud/02.02 - Referencia Técnica LFC/08 - Data Layer.md": {
+    "expandedKeys": [
+      "item-1-0"
+    ],
+    "cursor": {
+      "from": {
+        "line": 19,
+        "ch": 2
+      },
+      "to": {
+        "line": 19,
+        "ch": 2
+      }
+    },
+    "scroll": 7.320754716981132
+  },
+  "2026-08-11.md": {
+    "expandedKeys": [],
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 1,
+        "ch": 161
+      },
+      "to": {
+        "line": 1,
+        "ch": 161
+      }
+    }
+  },
+  "Email.md": {
+    "expandedKeys": []
+  },
+  "03. Onboarding/Region Language Codes.md": {
+    "cursor": {
+      "from": {
+        "line": 14,
+        "ch": 0
+      },
+      "to": {
+        "line": 14,
+        "ch": 0
+      }
+    },
+    "scroll": 51.88287033005312,
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "06. Personas y Equipos/GALE.md": {
+    "expandedKeys": [],
+    "cursor": {
+      "from": {
+        "line": 9,
+        "ch": 0
+      },
+      "to": {
+        "line": 9,
+        "ch": 0
+      }
+    },
+    "scroll": 0.018750000558793545
+  },
+  "06. Personas y Equipos/Finance.md": {
+    "expandedKeys": [],
+    "cursor": {
+      "from": {
+        "line": 8,
+        "ch": 0
+      },
+      "to": {
+        "line": 8,
+        "ch": 0
+      }
+    }
+  },
+  "06. Personas y Equipos/Data Team.md": {
+    "cursor": {
+      "from": {
+        "line": 8,
+        "ch": 0
+      },
+      "to": {
+        "line": 8,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "06. Personas y Equipos/Creative Services.md": {
+    "expandedKeys": [],
+    "cursor": {
+      "from": {
+        "line": 9,
+        "ch": 0
+      },
+      "to": {
+        "line": 9,
+        "ch": 0
+      }
+    }
+  },
+  "06. Personas y Equipos/Content Governance.md": {
+    "expandedKeys": [],
+    "cursor": {
+      "from": {
+        "line": 8,
+        "ch": 0
+      },
+      "to": {
+        "line": 8,
+        "ch": 0
+      }
+    }
+  },
+  "06. Personas y Equipos/Campaign Manager.md": {
+    "expandedKeys": [],
+    "cursor": {
+      "from": {
+        "line": 8,
+        "ch": 0
+      },
+      "to": {
+        "line": 8,
+        "ch": 0
+      }
+    }
+  },
+  "06. Personas y Equipos/Tamara.md": {
+    "expandedKeys": [
+      "item-1-0"
+    ],
+    "cursor": {
+      "from": {
+        "line": 9,
+        "ch": 0
+      },
+      "to": {
+        "line": 9,
+        "ch": 0
+      }
+    },
+    "scroll": 0
+  },
+  "06. Personas y Equipos/Kamaria.md": {
+    "expandedKeys": [],
+    "cursor": {
+      "from": {
+        "line": 9,
+        "ch": 0
+      },
+      "to": {
+        "line": 9,
+        "ch": 0
+      }
+    },
+    "scroll": 2.5468749403953552
+  }
+}

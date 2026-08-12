@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "PowerShell(powershell -ExecutionPolicy Bypass -File \".claude/skills/auditing-vault-links/scripts/audit-links.ps1\" | Select-String \"Orphaned notes\" -Context 0,10)",
+      "PowerShell(powershell -ExecutionPolicy Bypass -File \"C:\\\\Users\\\\UGAMEX\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\c--Users-UGAMEX-Documents-Obsidian-Vault\\\\21e90946-6b3d-4ffc-bab8-0fad19d973b2\\\\scratchpad\\\\tag-audit.ps1\")"
+    ]
+  }
+}
