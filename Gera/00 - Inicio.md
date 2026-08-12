@@ -10,6 +10,10 @@ status: Active
 
 Mapa de contenido del vault: punto de entrada a las cuatro áreas.
 
+## 00 · Sistema
+
+[[Reglas de Confidencialidad y Uso del Vault]] — qué no se puede nombrar ni compartir, y qué debe hacer la IA ante duda de información sensible. Lectura obligatoria antes de compartir o publicar contenido de este vault.
+
 ## 01 · Personal
 
 [[Gerardo Aviña - FY2026 Goals]] — objetivos y scorecard del año fiscal.
