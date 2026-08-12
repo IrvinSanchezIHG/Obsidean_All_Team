@@ -91,15 +91,15 @@
     ],
     "cursor": {
       "from": {
-        "line": 15,
+        "line": 16,
         "ch": 0
       },
       "to": {
-        "line": 15,
+        "line": 16,
         "ch": 0
       }
     },
-    "scroll": 367.71786737442017
+    "scroll": 0
   },
   "03. Onboarding/00 - Índice de Onboarding LFC.md": {
     "expandedKeys": [
@@ -107,15 +107,15 @@
     ],
     "cursor": {
       "from": {
-        "line": 11,
+        "line": 12,
         "ch": 0
       },
       "to": {
-        "line": 11,
+        "line": 12,
         "ch": 0
       }
     },
-    "scroll": 26.48931144278027
+    "scroll": 25.06059230125771
   },
   "02. Marketing Cloud/02.03 - Proceso/Proceso Global de Creación de Correos Electrónicos IHG 2024.md": {
     "expandedKeys": [
@@ -344,7 +344,7 @@
       "item-2-57",
       "item-2-64"
     ],
-    "scroll": 682.7897651245552,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 523,

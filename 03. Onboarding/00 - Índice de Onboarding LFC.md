@@ -23,6 +23,8 @@ Punto de entrada al onboarding de Guadalajara para la cuenta IHG: contexto de ne
 
 [[LFC Developer Onboarding Guide|Manual de Onboarding para Desarrolladores LFC]] (vive en [[LFC_20260507_Lifecycle Email Development & Data Integration]]) — guía paso a paso para construir Email, Push y Journeys en SFMC. Ver también la secuencia conceptual en [[00 - Marketing Cloud Onboarding|02.02 - Referencia Técnica LFC]].
 
+[[Mejores Prácticas de Desarrollo LFC]] — versión rápida/escaneable del manual anterior, organizada por fase (archivos, Figma, Data, build, traducción, journey, QA, deployment); también existe como página visual enlazada desde esa nota.
+
 ## Bitácora de sesiones de capacitación
 
 | Fecha | Sesión | Tema |

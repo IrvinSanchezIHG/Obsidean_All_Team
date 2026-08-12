@@ -122,3 +122,4 @@ No todas las campañas siguen esta secuencia limpia. Vale la pena conocer estas 
 [[End-to-End Flow]]
 [[00 - Índice de Onboarding LFC]]
 [[00 - Marketing Cloud Onboarding]]
+[[Mejores Prácticas de Desarrollo LFC]]

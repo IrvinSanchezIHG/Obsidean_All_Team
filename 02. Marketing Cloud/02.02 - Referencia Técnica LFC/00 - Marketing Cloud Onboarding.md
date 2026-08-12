@@ -183,3 +183,4 @@ Mapa de contenido: orden recomendado de lectura de la curricula técnica LFC/SFM
 
 [[Índice de Onboarding LFC]]
 [[LFC Developer Onboarding Guide]]
+[[Mejores Prácticas de Desarrollo LFC]] — referencia rápida condensada de todo lo anterior, por fase
