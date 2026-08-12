@@ -97,7 +97,7 @@ El contenido del URL matrix (qué URL corresponde a cada mercado/idioma) lo entr
 
 [[2026-08-11|Dudas de Estudio — CRF y List Pull]]  
 
-[[Ronica]]  
+[[Raunak]]  
 
   
 

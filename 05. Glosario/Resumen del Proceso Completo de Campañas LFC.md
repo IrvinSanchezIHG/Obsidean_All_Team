@@ -44,7 +44,7 @@ Los copywriters generan el **copy deck** (tono, subject lines alternativos, ubic
 
 ## 3. List Pull (en paralelo al Figma)
 
-Mientras el Figma avanza, el **developer de GALE redacta y organiza el List Pull** — a solicitud del campaign manager, que mantiene la propiedad del requerimiento — y lo revisa/valida junto con el **equipo de Datos** (Ronica/Ronic), que construye la Data Extension real siguiendo exactamente lo que dice el documento. Junto con el Figma, es lo mínimo que desarrollo necesita para poder arrancar. Es también la base de la que depende **todo** lo que viene después: si un atributo está mal aquí, tanto el build como los test cases terminan validados contra el dato equivocado sin que nadie lo note — por eso nunca se avanza sin esa validación conjunta.
+Mientras el Figma avanza, el **developer de GALE redacta y organiza el List Pull** — a solicitud del campaign manager, que mantiene la propiedad del requerimiento — y lo revisa/valida junto con el **equipo de Datos** (Raunak), que construye la Data Extension real siguiendo exactamente lo que dice el documento. Junto con el Figma, es lo mínimo que desarrollo necesita para poder arrancar. Es también la base de la que depende **todo** lo que viene después: si un atributo está mal aquí, tanto el build como los test cases terminan validados contra el dato equivocado sin que nadie lo note — por eso nunca se avanza sin esa validación conjunta.
 
 ## 4. CRF — el punto de no retorno
 

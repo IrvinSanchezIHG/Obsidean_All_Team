@@ -25,7 +25,7 @@ Mapa de las personas, equipos y roles involucrados en el proceso Lifecycle Campa
 | [[Aruni Patel]] | Traducción y Localización (SFMC) | GALE |
 | [[Kamaria]] | Proceso / Revisión | IHG |
 | [[Laura]] | Accesibilidad (ADA) | IHG |
-| [[Ronica]] | Data / GT | IHG |
+| [[Raunak]] | Data / GT | IHG |
 
 ## GALE (agencia saliente)
 

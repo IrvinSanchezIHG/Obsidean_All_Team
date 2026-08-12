@@ -96,7 +96,7 @@ status: Active
 | **IHG** | El cliente — dueño de la marca, la estrategia y la aprobación final de cada campaña. |
 | **Campaign Manager** | Dueño del requerimiento de negocio del lado IHG (ej. Megan, Matt) — desarrolla la estrategia y aprueba los proofs. |
 | **Business Analyst (BA)** | Arma el CRF con toda la información técnica y de negocio necesaria para desarrollo. |
-| **Equipo de Datos** (Ronica/Ronic, Prasad) | Provee el List Pull, mantiene las Data Extensions de producción/prueba, refresca la data antes del deploy final. |
+| **Equipo de Datos** (Raunak, Prasad) | Provee el List Pull, mantiene las Data Extensions de producción/prueba, refresca la data antes del deploy final. |
 | **Martech / Data Cloud team** (Krishna y equipo) | Dueños de los datos de Data Cloud/Loyalty — power los emails triggered por cambio de comportamiento (ej. cambio de tier). |
 | **Loyalty Team** | Configura ofertas Evergreen y privadas — define elegibilidad de miembros. |
 | **Marketing Effectiveness** | Equipo de insights de performance y channel shift — retroalimenta a estrategia. |

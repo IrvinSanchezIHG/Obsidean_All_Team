@@ -96,12 +96,12 @@ Necesidad de negocio → Estrategia → Creativo → Delivery → Ejecución →
 |Persona/Equipo|Rol|
 |---|---|
 |Megan, Matt|Campaign managers — desarrollan campaña/estrategia, aprueban proofs|
-|[[Ronica]]|Data — provee archivo de audiencia, trabaja con GT (General Technology)|
+|[[Raunak]]|Data — provee archivo de audiencia, trabaja con GT (General Technology)|
 |Krishna, Jessica, Connor|Martech — dueños de **Data Cloud / Loyalty data** (emails triggered)|
 |Loyalty team|Configura ofertas Evergreen y **privadas** (elegibilidad de miembros)|
 |Sarah Kulp, Jason Longnecker|Marketing Effectiveness — insights de performance, channel shift|
 
-> [!tip] Dato útil ~75–80% de los emails usan datos de **CDP** (vía Ronica); el resto (emails triggered, ej. _milestone rewards_) usa **Data Cloud/Loyalty**, propiedad del equipo de Krishna.
+> [!tip] Dato útil ~75–80% de los emails usan datos de **CDP** (vía Raunak); el resto (emails triggered, ej. _milestone rewards_) usa **Data Cloud/Loyalty**, propiedad del equipo de Krishna.
 
 ---
 
@@ -131,7 +131,7 @@ Necesidad de negocio → Estrategia → Creativo → Delivery → Ejecución →
     - Contenido dinámico y reglas de negocio
     - Matriz de links (incluye tracking)
     - Audience split / lógica de journey
-- Se nutre de: comms plan (Matt), list pool (Ronica), Figma aprobado.
+- Se nutre de: comms plan (Matt), list pool (Raunak), Figma aprobado.
 - Es el **"punto de no retorno"** antes de handoff a desarrollo (Bangalore).
 
 ### 4.5 Kickoff con desarrollo (Bangalore)
@@ -160,7 +160,7 @@ Necesidad de negocio → Estrategia → Creativo → Delivery → Ejecución →
 
 ### 4.8 Pre-launch / Deployment
 
-- Antes del deploy: refresh de la data extension con **data en vivo** (Ronica).
+- Antes del deploy: refresh de la data extension con **data en vivo** (Raunak).
 - Proof final con data real hacia campaign manager / Kamaria (y a veces leadership).
 - Se documenta todo en el **Deployment Plan** (setup técnico completo en Marketing Cloud, decisiones de split, nombres de DE) — archivado en **SharePoint IHG** por campaña (histórico desde 2023/2024).
 

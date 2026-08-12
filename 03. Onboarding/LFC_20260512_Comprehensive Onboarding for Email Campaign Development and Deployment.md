@@ -117,12 +117,12 @@ En la esquina superior derecha de Journey Builder hay un selector de Business Un
 ### 2.2 Estructura de carpetas
 
 - **Journeys**: `Life Cycle > [año] > [tipo de campaña] > [subcarpeta por trimestre]` — ej. `2026 > Nurture > Nurture Q2Q3`, la más reciente. Ad hoc, en cambio, no organiza tanto por subcarpeta — casi todo vive suelto en su carpeta raíz.
-- **Data Extensions**: estructura distinta, mantenida por el equipo de datos (Ronic): `Shared Data Actions > Customer 360° Segments > IHG One R LFC > Final DS > LFC Q2 Nurture 2026`. Dentro de ahí vive la **internal test list / seed list** (en este caso, 52 registros) — reservada solo para revisión interna antes de activar un journey real, distinta de las DEs de predicción que sí contienen datos reales de clientes.
+- **Data Extensions**: estructura distinta, mantenida por el equipo de datos (Raunak): `Shared Data Actions > Customer 360° Segments > IHG One R LFC > Final DS > LFC Q2 Nurture 2026`. Dentro de ahí vive la **internal test list / seed list** (en este caso, 52 registros) — reservada solo para revisión interna antes de activar un journey real, distinta de las DEs de predicción que sí contienen datos reales de clientes.
 
 ### 2.3 Datos de prueba: nunca editar la DE real
 
 > [!warning] Regla no negociable
-> No se edita directamente la Data Extension que entrega el equipo de datos — cualquier confusión ahí genera ida y vuelta innecesaria con Ronic. En vez de eso, se usa una consulta SQL sencilla para armar datos de prueba seguros: se toma **un registro real al azar por idioma/región** (para conservar todos los campos y combinaciones reales), y se **sobrescribe solo el subscriber key y el email address** con una dirección de prueba (ej. `oscar@gmail.com`). Así, aunque algo salga mal, nunca se le envía un correo a un cliente real por accidente.
+> No se edita directamente la Data Extension que entrega el equipo de datos — cualquier confusión ahí genera ida y vuelta innecesaria con Raunak. En vez de eso, se usa una consulta SQL sencilla para armar datos de prueba seguros: se toma **un registro real al azar por idioma/región** (para conservar todos los campos y combinaciones reales), y se **sobrescribe solo el subscriber key y el email address** con una dirección de prueba (ej. `oscar@gmail.com`). Así, aunque algo salga mal, nunca se le envía un correo a un cliente real por accidente.
 
 El equipo GALE usa una dirección compartida (`gailihgqa@gmail.com`) para segregar fácilmente los correos de prueba de distintos proyectos en una sola bandeja. Si no existe un Gmail de prueba específico para IHG, hay que crear uno.
 
@@ -165,7 +165,7 @@ Se conecta el journey vía **Contact Data** (no la DE compartida cruda) porque g
 - [ ] Revisar (click) **todos los links del email de prueba excepto el de unsubscribe** — confirmar que cada URL resuelve antes de pasar a producción.
 
 > [!note] Caso real visto en vivo durante la sesión
-> El seed list que se iba a usar tenía el Content ID desactualizado (mostraba `6` en vez de `7`) y el mailing date seguía marcando la semana anterior, **a pesar de que Ronic había confirmado que ya estaba refrescado**. Lección: verificar la frescura de la DE directamente en la data, no solo confiar en una confirmación verbal — para efectos de la prueba, se ajustó manualmente el mailing date del seed list de prueba a "hoy" (nunca se haría esto sobre una DE de producción).
+> El seed list que se iba a usar tenía el Content ID desactualizado (mostraba `6` en vez de `7`) y el mailing date seguía marcando la semana anterior, **a pesar de que Raunak había confirmado que ya estaba refrescado**. Lección: verificar la frescura de la DE directamente en la data, no solo confiar en una confirmación verbal — para efectos de la prueba, se ajustó manualmente el mailing date del seed list de prueba a "hoy" (nunca se haría esto sobre una DE de producción).
 
 Relacionado: [[Journey Builder]] · [[Data Layer]] · [[QA Process]]
 
@@ -226,7 +226,7 @@ Tres comunicaciones automáticas que avisan a un miembro que sus puntos están p
 
 Históricamente, día 7 y día 30 estaban clasificados como **commercial** (sujetos a honrar el opt-out/unsubscribe por ley CAN-SPAM), mientras que día 60 era **transactional** (se debe enviar sin importar el estado de suscripción). Resultado: cualquier miembro que se hubiera dado de baja de correos promocionales **nunca recibía los avisos de día 7 y 30**, solo el de día 60 — generando reclamos y hasta demandas cuando sus puntos expiraban "sin aviso".
 
-**Corrección aplicada la semana previa a esta sesión** (trabajando con Ronic/equipo de datos): los tres correos se reclasificaron a **transactional**, para que se envíen sin importar el estado de opt-out.
+**Corrección aplicada la semana previa a esta sesión** (trabajando con Raunak/equipo de datos): los tres correos se reclasificaron a **transactional**, para que se envíen sin importar el estado de opt-out.
 
 > [!note] Por qué esto es legal
 > Un correo transaccional (notificación de cuenta, no promocional) está exento de la obligación de honrar el opt-out bajo CAN-SPAM — por eso puntos-por-expirar puede clasificarse así, a diferencia de una oferta comercial.
@@ -244,7 +244,7 @@ El equipo legal/CS pasa el caso con **member ID y/o email** (no con subscriber k
 
 Antes de cualquier conclusión, siempre revisar primero **All Subscribers** para confirmar si el contacto está opted-in u opted-out (indicador en rojo = opted-out) — aunque, con la reclasificación a transactional, esto ya no bloquea el envío, sigue siendo información útil de contexto.
 
-Para historial más allá de lo que cubre Marketing Cloud (Contact Builder ~1 año, Query Studio ~6 meses), hay que escalar directamente a Prasad/Ronic — Marketing Cloud no es el sistema de registro de largo plazo para ese dato.
+Para historial más allá de lo que cubre Marketing Cloud (Contact Builder ~1 año, Query Studio ~6 meses), hay que escalar directamente a Prasad/Raunak — Marketing Cloud no es el sistema de registro de largo plazo para ese dato.
 
 ### 5.4 Reglas de seguridad — por qué existen
 
@@ -286,7 +286,7 @@ Ciertos campos que vienen de Data Cloud (ejemplo real: `offer opt in`) **no reci
 **Fix implementado**: se agregó un decision split explícito para valores null, con los contactos esperando en un **wait step de 4 horas**, tras el cual se vuelve a checar el campo; si sigue null, esperan **otras 4 horas** y se checa de nuevo — porque el delay real observado para que un cambio de tier se propague puede llegar hasta **8 horas**. En un batch real mostrado en la sesión, la mayoría de los registros que originalmente habrían caído en "sin correo" se recuperaron hacia la rama correcta después de las dos rondas de espera; solo un puñado quedó sin resolver.
 
 > [!note] Lección general
-> Cualquier proyecto que toque datos de Data Cloud/Loyalty Cloud debe tratarse como inherentemente más lento y riesgoso de construir bien que un proyecto LFC o ad hoc estándar (que jala datos ya frescos y listos desde Ronic/Prasad). Siempre presupuestar tiempo para una fase de validación tipo mock-run, y esperar descubrir casos límite de forma empírica, no de antemano.
+> Cualquier proyecto que toque datos de Data Cloud/Loyalty Cloud debe tratarse como inherentemente más lento y riesgoso de construir bien que un proyecto LFC o ad hoc estándar (que jala datos ya frescos y listos desde Raunak/Prasad). Siempre presupuestar tiempo para una fase de validación tipo mock-run, y esperar descubrir casos límite de forma empírica, no de antemano.
 
 Relacionado: [[Data Layer]] · [[Journey Builder]]
 

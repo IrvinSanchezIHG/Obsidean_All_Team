@@ -9,11 +9,11 @@ status: Active
 
 # Data Team
 
-Equipo de IHG responsable de la data que alimenta las campañas de Lifecycle Marketing: audience files (list pull), integración con Data Cloud/Loyalty data para emails triggered, y refresh de data extensions antes de cada deployment. [[Ronica]] es el punto de contacto principal.
+Equipo de IHG responsable de la data que alimenta las campañas de Lifecycle Marketing: audience files (list pull), integración con Data Cloud/Loyalty data para emails triggered, y refresh de data extensions antes de cada deployment. [[Raunak]] es el punto de contacto principal.
 
 ## Relacionado
 
-- [[Ronica]]
+- [[Raunak]]
 - [[02 - CRF]]
 - [[Gerardo Aviña - FY2026 Goals]]
 

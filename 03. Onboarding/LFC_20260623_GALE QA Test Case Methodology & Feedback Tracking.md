@@ -65,11 +65,11 @@ Usando **FTD (Fast Track to Diamond)** como ejemplo de entrenamiento — 3 email
   - Todo minúsculas (`oscar`)
   - Mixed case (`OsCaR`)
   - La razón: la data cruda no siempre llega limpia, y en email development es estándar **normalizar el first name** (vía `ProperCase()`) para que el saludo se vea profesional sin importar cómo venga el dato.
-- **Valores null**: se agrega un test case para "sin valor" (ej. mostrar "Dear Valued Customer") **salvo que el equipo de datos confirme que el campo es no-nulleable** — en este proyecto, Ronic confirmó que `first_name` no podía venir vacío, así que el equipo quitó ese test case. Si se trabaja con alguien que no sea Ronic, es buena práctica incluirlo de todas formas, por seguridad.
+- **Valores null**: se agrega un test case para "sin valor" (ej. mostrar "Dear Valued Customer") **salvo que el equipo de datos confirme que el campo es no-nulleable** — en este proyecto, Raunak confirmó que `first_name` no podía venir vacío, así que el equipo quitó ese test case. Si se trabaja con alguien que no sea Raunak, es buena práctica incluirlo de todas formas, por seguridad.
 - **Content ID como parte del testing**: FTD tenía 4 subject lines distintos controlados por Content ID (`A1`–`A4`) — eso solo, multiplicado por las variantes de first name, generó **28 test cases** únicamente para subject line y preheader.
 
 > [!warning] El List Pull es la base de todo
-> Si el List Pull tiene un atributo incorrecto, tanto el build como los test cases terminan validados contra ese atributo equivocado — el error se propaga sin que nadie lo note. Por eso se revisa el List Pull con el equipo de datos (Ronic) **antes** de empezar a escribir test cases, y se recomienda incluir a QA en esa llamada de revisión.
+> Si el List Pull tiene un atributo incorrecto, tanto el build como los test cases terminan validados contra ese atributo equivocado — el error se propaga sin que nadie lo note. Por eso se revisa el List Pull con el equipo de datos (Raunak) **antes** de empezar a escribir test cases, y se recomienda incluir a QA en esa llamada de revisión.
 
 ### Columnas del documento de test cases
 
@@ -97,7 +97,7 @@ No todas las campañas aplican a los mismos niveles de tier — se determina ley
 - FTD Offer Registration: solo **Platinum** (audiencia calificada = miembros que aún no llegaron a Diamond pero están al menos en Platinum).
 - Otro email de la misma campaña (downgrade): **4 niveles** (Club, Silver, Gold, Platinum).
 
-Si no está claro cuántos niveles aplican, se pregunta directamente a Ronic — y **mientras Oscar desarrolla el List Pull con el equipo de datos, ya se debería estar pensando en qué preguntas hacer** para poder planear los test cases con esa misma llamada.
+Si no está claro cuántos niveles aplican, se pregunta directamente a Raunak — y **mientras Oscar desarrolla el List Pull con el equipo de datos, ya se debería estar pensando en qué preguntas hacer** para poder planear los test cases con esa misma llamada.
 
 ### Validación de colores por tier
 
@@ -164,7 +164,7 @@ Push es "lo más simple de todo el testing":
 
 Existe una capa adicional de QA que **no se documenta como test cases formales** — vive en el conocimiento/experiencia del equipo y se valida cruzando la configuración del journey contra el CRF y el List Pull:
 
-- El nombre de la Data Extension coincide con lo que entregó Ronic.
+- El nombre de la Data Extension coincide con lo que entregó Raunak.
 - El schedule coincide con lo documentado en el CRF (fecha y hora — si el CRF no trae la hora, se debe pedir que la agreguen).
 - El primer decision split es **mailing date = hoy**.
 - Los splits de idioma están correctamente armados: primero se excluyen **todos** los códigos en inglés con una cadena de "not equals" encadenada con AND (quien no coincide con ninguno cae en la rama "S", no inglés); dentro de la rama inglesa, **American English** (`USEN` + `MSEN`) vs. **Global English** (`AMEN` + `CAEN` + `GCEN` + `EUEN`).
@@ -202,7 +202,7 @@ Es un documento **obligatorio** para todo proyecto — la forma en que QA y desa
 En 2024 el equipo tenía notablemente más incidentes. La respuesta fue introducir una estructura de rondas progresivas: **pre-alpha → alpha → beta → live proofs → checks del día de lanzamiento** — como mínimo, **3 rondas de QA interna** más una ronda de traducciones más una ronda de proofs con el cliente. Esa estructura es la razón por la que hoy el volumen de incidentes es mucho menor.
 
 > [!note] Caso real visto en vivo durante esta sesión
-> Mientras se grababa la sesión, Anu descubrió que la automatización de **Points Expiration** llevaba fallando desde el domingo/lunes anterior — un email transaccional que, técnicamente, no está bajo la responsabilidad directa de QA de GALE, pero que Anu detectó durante su revisión rutinaria de **End of Day Check** antes de mandar el reporte diario. Escaló de inmediato a Kamaria y Ronic como solicitud de alta prioridad. Es el ejemplo perfecto de por qué el hábito del End of Day Check importa — atrapa problemas que de otra forma pasarían desapercibidos por días.
+> Mientras se grababa la sesión, Anu descubrió que la automatización de **Points Expiration** llevaba fallando desde el domingo/lunes anterior — un email transaccional que, técnicamente, no está bajo la responsabilidad directa de QA de GALE, pero que Anu detectó durante su revisión rutinaria de **End of Day Check** antes de mandar el reporte diario. Escaló de inmediato a Kamaria y Raunak como solicitud de alta prioridad. Es el ejemplo perfecto de por qué el hábito del End of Day Check importa — atrapa problemas que de otra forma pasarían desapercibidos por días.
 
 ## 16. Qué NO se testea (y por qué)
 
