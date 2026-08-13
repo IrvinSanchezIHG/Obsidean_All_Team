@@ -39,7 +39,7 @@ Opera PMS
         ↓
 Operar hoteles
 
-El Grupo One Rewards
+El Grupo #OR
         ↓
 Fidelizar huéspedes
 
@@ -69,7 +69,7 @@ Hotel Lifecycle & Growth
             ↓
         Opera PMS
             ↓
-      El Grupo One Rewards
+      El Grupo #OR
             ↓
  Salesforce Marketing Cloud
             ↓

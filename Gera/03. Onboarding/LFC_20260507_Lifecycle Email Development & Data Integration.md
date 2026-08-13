@@ -133,7 +133,7 @@ Cuando una versión nueva está lista para ir a producción, la versión anterio
 No todas las Data Extensions relacionadas con una campaña tienen el mismo nivel de "verdad". Dentro del flujo de [[Automation Studio]] existen al menos dos tipos de carpeta:
 
 - **Carpeta de trabajo ("Working")** — contiene las DEs intermedias del proceso de armado de audiencia: staging, contact history intermedio, etc. **Nunca se conecta un journey directamente a estas DEs.**
-- **Carpeta "Final DE"** — para Life Cycle, **todas** las Data Extensions finales que sí se conectan al [[Entry Source]] de un journey viven exclusivamente en esta carpeta. Si una DE de Life Cycle no está en la carpeta "Final DE", no debe usarse como entry source de producción.
+- **Carpeta "Final DE"** — para #LFC, **todas** las Data Extensions finales que sí se conectan al [[Entry Source]] de un journey viven exclusivamente en esta carpeta. Si una DE de #LFC no está en la carpeta "Final DE", no debe usarse como entry source de producción.
 
 Las activaciones que vienen de [[Data Cloud]] se publican primero en una carpeta de **Customer 360** dentro de Marketing Cloud; desde ahí, Automation Studio las procesa (ver [[#Paso 8 Aplicar las reglas compartidas de Data Extensions|Paso 8]]) hasta dejarlas en la carpeta Final DE.
 
@@ -337,7 +337,7 @@ El journey es donde ocurre la orquestación final, pero debe seguir siendo la ca
 Los journeys LFC están basados en stages. En lugar de construir un árbol de lógica gigante para decidir si un usuario está en TR1, TR2, TB1 o TB2, cada stage debería entrar normalmente a través de la DE apropiada. Si existen stages separados, deben existir fuentes de entrada separadas también.
 
 ### 7.2 Configurar el Entry Source
-La primera decisión crítica al construir el journey es la DE de [[Entry Source]] — es la selección más importante de todo el journey porque determina quién entra. Antes de continuar, verifica: nombre de la DE, stage de lifecycle, expectativas de idioma/mercado, existencia de campos requeridos, y si estás usando una DE de prueba o de producción. **Recuerda que para Life Cycle, la única DE válida como entry source de producción es la que vive en la carpeta "Final DE"** (ver [[#Paso 2 Ubicar dónde vive cada cosa (estructura de carpetas)|Paso 2.5]]). Muchos errores de lanzamiento ocurren no porque el path esté roto, sino porque quedó seleccionada la DE fuente equivocada.
+La primera decisión crítica al construir el journey es la DE de [[Entry Source]] — es la selección más importante de todo el journey porque determina quién entra. Antes de continuar, verifica: nombre de la DE, stage de lifecycle, expectativas de idioma/mercado, existencia de campos requeridos, y si estás usando una DE de prueba o de producción. **Recuerda que para #LFC, la única DE válida como entry source de producción es la que vive en la carpeta "Final DE"** (ver [[#Paso 2 Ubicar dónde vive cada cosa (estructura de carpetas)|Paso 2.5]]). Muchos errores de lanzamiento ocurren no porque el path esté roto, sino porque quedó seleccionada la DE fuente equivocada.
 
 ### 7.3 Agregar la actividad de canal correcta
 Después del Entry Source, agrega el send activity correspondiente: Email Activity para el build de email, MobilePush Activity para el de push. Luego selecciona el asset aprobado que pertenece al mismo stage y mercado de campaña. Un error de alineación muy común: entra una DE de TR1 pero el email o push seleccionado pertenece a TR2 o a otro idioma.
@@ -385,7 +385,7 @@ Entender solo "la DE llega lista" no es suficiente para diagnosticar problemas d
 4. **[[Automation Studio]] (el lado SFMC)** — desde Customer 360, Automation Studio hace la "masajeada" final de datos vía SQL: pasa por una carpeta de **staging**, hace el **contact history append** (registra que se envió), y deja el resultado en la carpeta **Final DE** — la única que debe usarse como entry source de un journey de producción (ver [[#Paso 2 Ubicar dónde vive cada cosa (estructura de carpetas)|Paso 2.5]]).
 
 > [!note] Dato operativo clave
-> Para Life Cycle, las Data Extensions finales se sobrescriben todos los días (no se recrean) — el pipeline corre de forma automatizada y programada. Si necesitas una personalización o campo adicional que no está llegando, puede añadirse en la etapa de activación (Data Cloud) o directamente en Marketing Cloud — el equipo de Data Team suele preferir hacerlo en Marketing Cloud porque es más rápido y cercano a tiempo real.
+> Para #LFC, las Data Extensions finales se sobrescriben todos los días (no se recrean) — el pipeline corre de forma automatizada y programada. Si necesitas una personalización o campo adicional que no está llegando, puede añadirse en la etapa de activación (Data Cloud) o directamente en Marketing Cloud — el equipo de Data Team suele preferir hacerlo en Marketing Cloud porque es más rápido y cercano a tiempo real.
 
 ### 8.2 Cadencia de comunicación con el Data Team
 
@@ -549,8 +549,8 @@ Cuando un email es dinámico (por ejemplo, un email de aniversario que sirve par
 > [!warning] Impacto directo
 > Si el impression region name no está bien configurado o no se envía como se espera, Analytics **no puede** desagregar el performance por versión — aunque el email técnicamente funcione bien.
 
-### 13.4 Mapeo de fases de Life Cycle
-El negocio mantiene una tabla de mapeo que asocia el **nombre del mailing** con la fase de Life Cycle a la que pertenece: **Educate, Engage, Nurture, Retain**. Este mapeo alimenta un dashboard de monitoreo que se envía diariamente al equipo de Life Cycle y de email — por eso, cuando se crea o renombra un mailing, hay que asegurarse de que ese mapeo se actualice también.
+### 13.4 Mapeo de fases de #LFC
+El negocio mantiene una tabla de mapeo que asocia el **nombre del mailing** con la fase de #LFC a la que pertenece: **Educate, Engage, Nurture, Retain**. Este mapeo alimenta un dashboard de monitoreo que se envía diariamente al equipo de #LFC y de email — por eso, cuando se crea o renombra un mailing, hay que asegurarse de que ese mapeo se actualice también.
 
 ### 13.5 Por qué avisar con anticipación cuando cambian los nombres
 Si el nombre de un email o de una campaña cambia (por ejemplo, al consolidar varios emails estáticos en uno dinámico, como pasó con el email de aniversario), y Analytics no se entera con anticipación, en el dashboard **la línea de tendencia de ese mailing cae a cero** — dando la falsa impresión de que se dejó de enviar la campaña, cuando en realidad solo cambió de nombre. La regla es la misma que para list pulls: **avisar con al menos 2 semanas de anticipación**.
@@ -559,7 +559,7 @@ Si el nombre de un email o de una campaña cambia (por ejemplo, al consolidar va
 - Se prioriza el **UCTR (Unique Click-Through Rate)** sobre el open rate y sobre el click-through rate simple, porque el UCTR filtra clics repetidos de bots (un bot puede generar cientos de clics falsos; el UCTR solo cuenta si el contacto único hizo clic).
 - El benchmark de comparación depende del tipo de campaña:
   - Si la campaña se repite (ej. una venta anual), se compara **año contra año** para la misma campaña.
-  - Si no existe un histórico directo, se compara contra el **benchmark de la categoría** (ej. comparar un email de Life Cycle contra el promedio general de Life Cycle).
+  - Si no existe un histórico directo, se compara contra el **benchmark de la categoría** (ej. comparar un email de #LFC contra el promedio general de #LFC).
 - Las pruebas de **Internal Test / QA Test** (ver [[#Paso 14 Diferenciar Internal Test y QA Test|Paso 14]]) deben excluirse del análisis de performance real — el QA Test se identifica y se filtra automáticamente gracias al texto `QA test` en el subject line.
 
 Relacionado: [[#Paso 3 Aplicar la convención de nombres|Paso 3 · Convención de nombres]] · [[#Paso 5 Construir un Email desde cero|Paso 5 · Build de Email]] · [[#Paso 14 Diferenciar Internal Test y QA Test|Paso 14 · Internal Test vs. QA Test]]
@@ -653,14 +653,14 @@ Relacionado: [[#Paso 5 Construir un Email desde cero|Paso 5 · Build de Email]] 
 Estos son patrones extraídos de incidentes reales compartidos en el training del 7 de mayo — útiles como referencia de troubleshooting a gran escala, más allá de un solo email o journey.
 
 ### 16.1 Cuando la personalización se rompe "en cascada" sin motivo aparente
-En un caso real, muchos emails de Life Cycle empezaron a mostrar personalización rota (por ejemplo, el nombre saliendo como un valor genérico de error en vez del nombre real) — pero no todos a la vez, sino de forma dispersa a lo largo de varias semanas, lo que dificultó detectar el patrón.
+En un caso real, muchos emails de #LFC empezaron a mostrar personalización rota (por ejemplo, el nombre saliendo como un valor genérico de error en vez del nombre real) — pero no todos a la vez, sino de forma dispersa a lo largo de varias semanas, lo que dificultó detectar el patrón.
 
 **Causa raíz:** un cambio en un sistema de datos **upstream**, ajeno a Salesforce Marketing Cloud, que no fue comunicado al equipo de Data Team ni al equipo de email.
 
 **Lección para troubleshooting:** si la personalización empieza a fallar en **múltiples emails no relacionados entre sí**, de forma dispersa en el tiempo, sospecha primero de un cambio upstream en la fuente de datos (ver el flujo completo en el [[#Paso 8 Aplicar las reglas compartidas de Data Extensions|Paso 8.1]]) antes de asumir que es un error de AMPscript local en cada email. La corrección en ese caso se hizo **por lotes** (unos cuantos emails corregidos por día) hasta cubrir todos los afectados.
 
-### 16.2 Principio operativo: Life Cycle no se apaga
-La política del equipo, incluso durante incidentes grandes, es **no detener por completo los envíos de Life Cycle**. En vez de eso, se corrige en producción de forma incremental (por lotes), priorizando mantener el programa activo mientras se resuelve el problema de fondo. Esto tiene una implicación directa para el developer: durante un incidente, la prioridad no es "apagar todo hasta arreglarlo", sino coordinar con el equipo qué lote de campañas se corrige primero y volver a correr QA sobre cada una antes de reactivarla.
+### 16.2 Principio operativo: #LFC no se apaga
+La política del equipo, incluso durante incidentes grandes, es **no detener por completo los envíos de #LFC**. En vez de eso, se corrige en producción de forma incremental (por lotes), priorizando mantener el programa activo mientras se resuelve el problema de fondo. Esto tiene una implicación directa para el developer: durante un incidente, la prioridad no es "apagar todo hasta arreglarlo", sino coordinar con el equipo qué lote de campañas se corrige primero y volver a correr QA sobre cada una antes de reactivarla.
 
 ### 16.3 Contexto de seguridad
 Como resultado de un incidente de seguridad pasado relacionado con contraseñas débiles, las políticas de acceso a las bases de datos del equipo se volvieron considerablemente más estrictas (autenticación multifactor, requisitos de contraseña más largos y que cambian con frecuencia). No es un tema de AMPscript ni de builds, pero es contexto útil para entender por qué el acceso a ciertos sistemas puede sentirse más restrictivo que en otros entornos.
@@ -685,7 +685,7 @@ Además de este manual, el equipo mantiene un ecosistema de documentos de refere
 | **Proofing Guide** | Proceso y estándares de proofing | Antes de la primera ronda de pruebas de una campaña nueva |
 | **Lucid Charts** | Diagramas de flujo de datos, usados específicamente para campañas cuya audiencia viene de Data Cloud/Loyalty Cloud (no de CDP/List Pull) | Para visualizar el flujo de datos de una campaña específica |
 | **LFC Journey and Email Database** | Un registro central que mapea cada journey con sus emails asociados, idiomas y la ruta de su Data Extension | Cuando necesitas ubicar rápidamente dónde vive el journey o la DE de una campaña ya existente |
-| **Master Decks** | Un documento extenso por cada fase de Life Cycle (Educate, Engage, Nurture, Retain) con overview estratégico, user journey, overview de comunicaciones y el detalle de cada email | Para entender el contexto de negocio completo de una fase antes de trabajar en ella |
+| **Master Decks** | Un documento extenso por cada fase de #LFC (Educate, Engage, Nurture, Retain) con overview estratégico, user journey, overview de comunicaciones y el detalle de cada email | Para entender el contexto de negocio completo de una fase antes de trabajar en ella |
 | **Feedback Tracker** | Documento donde el equipo de campaña registra retroalimentación sobre el rendering de los emails durante proofing | Durante la ronda de feedback con el marketing manager |
 | **Blueprint / Auditoría de documentación** | Un audit que identifica qué documentación existe y cuál falta por campaña | Para saber si puedes confiar en que la documentación de una campaña específica está completa |
 

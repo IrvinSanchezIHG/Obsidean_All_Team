@@ -36,7 +36,7 @@ status: Active
 | `role="presentation"` en las tablas de layout | Le dice a lectores de pantalla que la tabla es solo estructura visual, no datos tabulares — importante para accesibilidad |
 | `cellpadding="0"`, `cellspacing="0"`, `border="0"` | Elimina espaciado y bordes por default que algunos clientes agregan automáticamente a las tablas |
 | Tabla contenedora de ancho fijo (típicamente 600–700px) | Evita que el layout se deforme en distintos anchos de ventana/preview pane; es el estándar de facto para que el email se vea igual en la mayoría de los clientes |
-| Estructura de "wrapper + container" | Una tabla externa (100% de ancho, controla el color de fondo y centra el contenido) envolviendo una tabla interna de ancho fijo (contiene el contenido real) — patrón usado en prácticamente toda plantilla de Life Cycle |
+| Estructura de "wrapper + container" | Una tabla externa (100% de ancho, controla el color de fondo y centra el contenido) envolviendo una tabla interna de ancho fijo (contiene el contenido real) — patrón usado en prácticamente toda plantilla de #LFC |
 | Diseño de una sola columna | Minimiza el riesgo de que el layout se rompa en clientes con soporte CSS limitado; layouts multi-columna necesitan fallback robusto para no colapsar mal |
 
 ## CSS: qué usar y qué evitar

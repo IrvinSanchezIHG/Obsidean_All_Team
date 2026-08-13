@@ -31,7 +31,7 @@ status: Active
 ## 1. Build de Email — detalles prácticos
 
 - **Localizar bloques del Figma en Content Builder**: el equipo de creative etiqueta cada bloque del Figma con el ID del componente en la librería de SFMC (ej. `10A`, `5P`, `10D`). Ten cuidado: a veces el Figma etiqueta el bloque incorrecto (dice `10C` cuando en realidad es `10D`) — ante la duda, compara visualmente contra la librería real, no solo contra la etiqueta.
-- **El "Campaign Configuration File"**: las plantillas de Life Cycle traen un bloque AMPscript compartido y reutilizado por casi todos los emails (mapeo de `ContentID`, búsqueda contra la DE de traducciones, etc.). **No se edita ese bloque compartido** para resolver una necesidad de un solo email — es global. Si una variable necesita comportarse distinto solo en tu email, se **sobrescribe (override) esa variable específica** en la sección de declaración de tu propio email, después de donde se carga el bloque compartido.
+- **El "Campaign Configuration File"**: las plantillas de #LFC traen un bloque AMPscript compartido y reutilizado por casi todos los emails (mapeo de `ContentID`, búsqueda contra la DE de traducciones, etc.). **No se edita ese bloque compartido** para resolver una necesidad de un solo email — es global. Si una variable necesita comportarse distinto solo en tu email, se **sobrescribe (override) esa variable específica** en la sección de declaración de tu propio email, después de donde se carga el bloque compartido.
 - **Alias y link helper**: cada anchor tag lleva, además de la URL final, un **alias name** que sigue la convención del Link/URL Matrix del CRF (ej. `mod1_headlineBonus`) y, cuando aplica, un título legible al hover. Las URLs se arman con el **[[Link Matrix (LinkHelper)|link helper]]** compartido que resuelve automáticamente la variante correcta según el código de región/idioma — la misma referencia de link puede resolver a la página global en inglés o a la página en japonés sin mantener una URL distinta por idioma.
 - **Emails en árabe**: las plantillas incluyen una variable dedicada que controla alineación y dirección de texto (derecha a izquierda) — confirmar que esté presente y configurada, no asumir que el layout se ajusta solo.
 - **`ProperCase()` en el first name**: si la data trae el nombre en mayúsculas completas, `ProperCase()` lo normaliza antes de mostrarlo — sin esto, un email puede saludar "HOLA JUAN" en vez de "Hola Juan".
@@ -46,10 +46,10 @@ Relacionado: [[AMPscript]] · [[Content ID]] · [[Shared Content Blocks]]
 
 #decision-split
 
-Casi todos los journeys de Life Cycle en producción siguen el mismo patrón, en este orden:
+Casi todos los journeys de #LFC en producción siguen el mismo patrón, en este orden:
 
 1. **Split de frescura de datos ("Mailing Date")** — el primer split de casi cualquier journey compara un atributo de la DE (`Mailing Date`) contra la fecha de hoy, porque la DE se refresca automáticamente cada día vía la automation del Data Team. Este split confirma que el journey usa la versión más reciente de la data. Solo se ajusta en casos excepcionales (el refresh no se completó a tiempo).
-2. **Split de idioma/región** — Life Cycle maneja ~28 códigos de idioma/región; crear un split individual por cada uno desde el inicio satura el canvas. Patrón recomendado:
+2. **Split de idioma/región** — #LFC maneja ~28 códigos de idioma/región; crear un split individual por cada uno desde el inicio satura el canvas. Patrón recomendado:
    - Primer split: separar "no inglés" del resto.
    - Segundo split (rama inglés): agrupar variantes que comparten el mismo email (ej. `USEN` + `MSEN`, porque EE. UU./Canadá/México comparten asset en inglés).
    - Splits adicionales, uno por cada idioma con asset traducido propio (ej. `AMJP` para Japón, `EUDE` para Alemania).
@@ -67,7 +67,7 @@ Relacionado: [[Journey Builder]] · [[Entry Source]]
 
 ## 3. Journey — un journey por touch-point
 
-Para campañas multi-touch (anuncio → recordatorio de registro → recordatorio de booking → completion), la tentación es un solo journey con varios wait steps. **En Life Cycle casi nunca es así**: el Data Team entrega una Data Extension separada por touch-point, así que lo habitual es **un journey independiente por touch-point**, no una única secuencia. La forma más rápida y segura de construir uno nuevo es **copiar un journey anterior similar** (ej. el Nurture del trimestre pasado) y actualizar Entry Source, splits de idioma y fechas — no partir de cero cada vez.
+Para campañas multi-touch (anuncio → recordatorio de registro → recordatorio de booking → completion), la tentación es un solo journey con varios wait steps. **En #LFC casi nunca es así**: el Data Team entrega una Data Extension separada por touch-point, así que lo habitual es **un journey independiente por touch-point**, no una única secuencia. La forma más rápida y segura de construir uno nuevo es **copiar un journey anterior similar** (ej. el Nurture del trimestre pasado) y actualizar Entry Source, splits de idioma y fechas — no partir de cero cada vez.
 
 ---
 
