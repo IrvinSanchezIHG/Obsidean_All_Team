@@ -26,6 +26,7 @@ Mapa de las personas, equipos y roles involucrados en el proceso Lifecycle Campa
 | [[Kamaria]] | Proceso / Revisión | El Grupo |
 | [[Laura]] | Accesibilidad (ADA) | El Grupo |
 | [[Raunak]] | Data / GT | El Grupo |
+| [[Alex Wilkinson-Sanchez]] | Journey Builder / Governance de Templates | No confirmado |
 
 ## La agencia (agencia saliente)
 

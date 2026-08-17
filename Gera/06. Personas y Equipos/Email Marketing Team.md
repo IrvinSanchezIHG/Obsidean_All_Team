@@ -15,7 +15,7 @@ Organización de email marketing del lado El Grupo, dueña de la estrategia y ap
 
 - [[Guadalajara Email Marketing Team]]
 - [[Campaign Manager]]
-- [[Anniversary Offer Completion Campaign]]
+- [[A O C Campaign]]
 
 > [!info]- 🔗 Enlaces entrantes
 > ```dataview

@@ -62,7 +62,9 @@ Deployment
 
 - Preheader  
 
-  
+## Cadencia de activación
+
+Confirmado en [[LFC_20260814_La agencia Training - Nearly & Anniversary#2. Deploy y activación|sesión Nearly & Anniversary]]: el deploy se hace tras **aprobación del manager**, luego **test**, y la **activación** puede darse hasta el **día siguiente** — no es inmediata al aprobar.
 
 ## Relacionado  
 
@@ -71,6 +73,7 @@ Deployment
 [[QA Process]]  
 
 [[Monitoring]]  
+[[LFC_20260814_La agencia Training - Nearly & Anniversary]]  
 
   
 

@@ -27,36 +27,36 @@ status: Active
 
 ## Tabla completa
 
-| Language | Locale | Language from Smartling | Region/Language Code | Path used in web |
-| -------- | ------ | ------------------------------ | --------------------- | ----------------- |
-| en | en_US | English (United States) | USEN | us/en |
-| en | en_US | English (United States) | CAEN | us/en |
-| en | en_US | English (United States) | MSEN | us/en |
-| en | en_GB | English (United Kingdom) | EUEN | gb/en |
-| en | en_GB | English (United Kingdom) | AMEN | gb/en |
-| en | en_GB | English (United Kingdom) | GCEN | gb/en |
-| es | es_US | Spanish (International) | USES | us/es |
-| es | es_US | Spanish (International) | MSES | us/es |
-| es | es_US | Spanish (International) | EUES | us/es |
-| es | es_ES | Spanish (Spain) | ESES | es/es |
-| pt | pt_BR | Portuguese (Brazil) | MSPT | br/pt |
-| pt | pt_PT | Portuguese (Portugal) | EUPT | pt/pt |
-| pl | pl_PL | Polish (Poland) | EUPL | pl/pl |
-| nl | nl_NL | Dutch (Netherlands) | EUNL | nl/nl |
-| de | de_DE | German (Germany) | EUDE | de/de |
-| it | it_IT | Italian (Italy) | EUIT | it/it |
-| ru | ru_RU | Russian | EURU | ru/ru |
-| fr | fr_FR | French (France) | EUFR | fr/fr |
-| fr | fr_FR | French (France) | CAFR | fr/fr |
-| ar | ar_AE | Arabic (International) | AMAR | ae/ar |
-| jp | ja_JP | Japanese | AMJP | jp/ja |
-| tr | tr_TR | Turkish (Turkey) | AMTR | tr/tr |
-| th | th_TH | Thai (Thailand) | AMTH | th/th |
-| id | id_ID | Indonesian (Indonesia) | AMID | id/in |
-| ko | ko_KR | Korean (South Korea) | AMKO | kr/ko |
-| vi | vi_VN | Vietnamese (Vietnam) | AMVI | vn/vi |
-| zh | zh_CN | Chinese (China-Simplified) | GCZH | cn/zh |
-| tw | zh_TW | Chinese (Taiwan-Traditional) | TWZH | tw/zh |
+| #   | Language | Locale | Language from Smartling      | Region/Language Code | Path used in web | Activo en campaña  |
+| --- | -------- | ------ | ---------------------------- | -------------------- | ---------------- | ------------------ |
+| 1   | en       | en_US  | English (United States)      | USEN                 | us/en            | Activos en campaña |
+| 2   | en       | en_US  | English (United States)      | CAEN                 | us/en            | Activos en campaña |
+| 3   | en       | en_US  | English (United States)      | MSEN                 | us/en            | Activos en campaña |
+| 4   | en       | en_GB  | English (United Kingdom)     | EUEN                 | gb/en            | Activos en campaña |
+| 5   | en       | en_GB  | English (United Kingdom)     | AMEN                 | gb/en            | Activos en campaña |
+| 6   | en       | en_GB  | English (United Kingdom)     | GCEN                 | gb/en            | Activos en campaña |
+| 7   | es       | es_US  | Spanish (International)      | USES                 | us/es            | No activo          |
+| 8   | es       | es_US  | Spanish (International)      | MSES                 | us/es            | Activos en campaña |
+| 9   | es       | es_US  | Spanish (International)      | EUES                 | us/es            | Activos en campaña |
+| 10  | es       | es_ES  | Spanish (Spain)              | ESES                 | es/es            | Activos en campaña |
+| 11  | pt       | pt_BR  | Portuguese (Brazil)          | MSPT                 | br/pt            | Activos en campaña |
+| 12  | pt       | pt_PT  | Portuguese (Portugal)        | EUPT                 | pt/pt            | Activos en campaña |
+| 13  | pl       | pl_PL  | Polish (Poland)              | EUPL                 | pl/pl            | Activos en campaña |
+| 14  | nl       | nl_NL  | Dutch (Netherlands)          | EUNL                 | nl/nl            | Activos en campaña |
+| 15  | de       | de_DE  | German (Germany)             | EUDE                 | de/de            | Activos en campaña |
+| 16  | it       | it_IT  | Italian (Italy)              | EUIT                 | it/it            | Activos en campaña |
+| 17  | ru       | ru_RU  | Russian                      | EURU                 | ru/ru            | Activos en campaña |
+| 18  | fr       | fr_FR  | French (France)              | EUFR                 | fr/fr            | Activos en campaña |
+| 19  | fr       | fr_FR  | French (France)              | CAFR                 | fr/fr            | No activo          |
+| 20  | ar       | ar_AE  | Arabic (International)       | AMAR                 | ae/ar            | Activos en campaña |
+| 21  | jp       | ja_JP  | Japanese                     | AMJP                 | jp/ja            | Activos en campaña |
+| 22  | tr       | tr_TR  | Turkish (Turkey)             | AMTR                 | tr/tr            | Activos en campaña |
+| 23  | th       | th_TH  | Thai (Thailand)              | AMTH                 | th/th            | Activos en campaña |
+| 24  | id       | id_ID  | Indonesian (Indonesia)       | AMID                 | id/in            | Activos en campaña |
+| 25  | ko       | ko_KR  | Korean (South Korea)         | AMKO                 | kr/ko            | Activos en campaña |
+| 26  | vi       | vi_VN  | Vietnamese (Vietnam)         | AMVI                 | vn/vi            | Activos en campaña |
+| 27  | zh       | zh_CN  | Chinese (China-Simplified)   | GCZH                 | cn/zh            | Activos en campaña |
+| 28  | tw       | zh_TW  | Chinese (Taiwan-Traditional) | TWZH                 | tw/zh            | Activos en campaña |
 
 ## Notas rápidas
 

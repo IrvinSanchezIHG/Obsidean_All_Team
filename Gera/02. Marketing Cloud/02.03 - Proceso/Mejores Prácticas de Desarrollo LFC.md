@@ -139,4 +139,5 @@ Las que han causado incidentes reales cuando se rompen:
 [[QA Process]]
 [[Deployment Plan]]
 [[00 - Marketing Cloud Onboarding]]
+[[Documentos del Proceso LFC]] — catálogo de documentos y línea de tiempo de cuándo aparece cada uno
 [[Examen LFC - Developer]] — 32 preguntas para autoevaluar lo anterior

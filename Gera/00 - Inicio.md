@@ -22,7 +22,7 @@ Mapa de contenido del vault: punto de entrada a las cuatro áreas.
 
 - [[Índice de Onboarding LFC]] — punto de entrada al onboarding técnico y de negocio.
 - [[00 - Marketing Cloud Onboarding|Secuencia de Onboarding Técnico (01-20)]] — curricula conceptual SFMC/LFC.
-- Campañas: [[Anniversary Offer Completion Campaign]] (`02.01 - Campaigns/`).
+- Campañas: [[A O C Campaign]] (`02.01 - Campaigns/`).
 - Proceso: [[Proceso Global de Creación de Correos Electrónicos El Grupo 2024]] (`02.03 - Proceso/`).
 
 ## 03 · Onboarding

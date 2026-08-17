@@ -778,5 +778,378 @@
       }
     },
     "scroll": 5.200945626477542
+  },
+  "Gera/02. Marketing Cloud/02.03 - Proceso/Examen LFC - Developer.md": {
+    "expandedKeys": [
+      "item-1-0"
+    ],
+    "cursor": {
+      "from": {
+        "line": 13,
+        "ch": 0
+      },
+      "to": {
+        "line": 13,
+        "ch": 0
+      }
+    },
+    "scroll": 0
+  },
+  "Gera/02. Marketing Cloud/02.03 - Proceso/Mejores Prácticas de Desarrollo LFC.md": {
+    "expandedKeys": [
+      "item-1-0"
+    ],
+    "cursor": {
+      "from": {
+        "line": 14,
+        "ch": 0
+      },
+      "to": {
+        "line": 14,
+        "ch": 0
+      }
+    },
+    "scroll": 0
+  },
+  "Gera/03. Onboarding/Region Language Codes.md": {
+    "expandedKeys": [
+      "item-1-0"
+    ],
+    "cursor": {
+      "from": {
+        "line": 49,
+        "ch": 110
+      },
+      "to": {
+        "line": 49,
+        "ch": 110
+      }
+    },
+    "scroll": 31.750782328032237
+  },
+  "CLAUDE.md": {
+    "expandedKeys": []
+  },
+  "README.md": {
+    "expandedKeys": [
+      "item-1-0"
+    ],
+    "scroll": 0
+  },
+  "Gera/00. Sistema/Reglas/Reglas de Confidencialidad y Uso del Vault.md": {
+    "expandedKeys": [],
+    "cursor": {
+      "from": {
+        "line": 13,
+        "ch": 0
+      },
+      "to": {
+        "line": 13,
+        "ch": 0
+      }
+    }
+  },
+  "Gera/02. Marketing Cloud/02.01 - Campaigns/Anniversary Offer Completion Campaign.md": {
+    "expandedKeys": [
+      "item-1-0"
+    ],
+    "cursor": {
+      "from": {
+        "line": 73,
+        "ch": 0
+      },
+      "to": {
+        "line": 73,
+        "ch": 0
+      }
+    },
+    "scroll": 60.73133818308512
+  },
+  "Gera/02. Marketing Cloud/02.02 - Referencia Técnica LFC/00 - Marketing Cloud Onboarding.md": {
+    "expandedKeys": [],
+    "cursor": {
+      "from": {
+        "line": 12,
+        "ch": 0
+      },
+      "to": {
+        "line": 12,
+        "ch": 0
+      }
+    },
+    "scroll": 0
+  },
+  "Gera/02. Marketing Cloud/02.02 - Referencia Técnica LFC/01 - LFC (Life Cycle).md": {
+    "expandedKeys": [],
+    "cursor": {
+      "from": {
+        "line": 11,
+        "ch": 0
+      },
+      "to": {
+        "line": 11,
+        "ch": 0
+      }
+    },
+    "scroll": 67.18142318725586
+  },
+  "Gera/02. Marketing Cloud/02.02 - Referencia Técnica LFC/02 - CRF.md": {
+    "expandedKeys": [
+      "item-1-0"
+    ],
+    "cursor": {
+      "from": {
+        "line": 11,
+        "ch": 0
+      },
+      "to": {
+        "line": 11,
+        "ch": 0
+      }
+    },
+    "scroll": 28.97525946299235
+  },
+  "Gera/02. Marketing Cloud/02.02 - Referencia Técnica LFC/03 - Email Build Process.md": {
+    "expandedKeys": [],
+    "cursor": {
+      "from": {
+        "line": 12,
+        "ch": 0
+      },
+      "to": {
+        "line": 12,
+        "ch": 0
+      }
+    },
+    "scroll": 0.02500000074505806
+  },
+  "Gera/05. Glosario/Resumen del Proceso Completo de Campañas LFC.md": {
+    "expandedKeys": [
+      "item-1-0"
+    ],
+    "cursor": {
+      "from": {
+        "line": 83,
+        "ch": 21
+      },
+      "to": {
+        "line": 83,
+        "ch": 21
+      }
+    },
+    "scroll": 0
+  },
+  "Gera/2026-08-11.md": {
+    "cursor": {
+      "from": {
+        "line": 8,
+        "ch": 0
+      },
+      "to": {
+        "line": 8,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [],
+    "scroll": 0.01666666716337204
+  },
+  "Gera/00 - Inicio.md": {
+    "expandedKeys": [],
+    "cursor": {
+      "from": {
+        "line": 7,
+        "ch": 0
+      },
+      "to": {
+        "line": 7,
+        "ch": 0
+      }
+    },
+    "scroll": 0.016203704186611705
+  },
+  "Gera/05. Glosario/Smartling.md": {
+    "expandedKeys": [
+      "item-1-0"
+    ],
+    "cursor": {
+      "from": {
+        "line": 11,
+        "ch": 0
+      },
+      "to": {
+        "line": 11,
+        "ch": 0
+      }
+    },
+    "scroll": 43.48518981905471
+  },
+  "Gera/03. Onboarding/LFC_20260505_Lifecycle Campaign Execution.md": {
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-2",
+      "item-2-11"
+    ],
+    "cursor": {
+      "from": {
+        "line": 112,
+        "ch": 118
+      },
+      "to": {
+        "line": 112,
+        "ch": 117
+      }
+    },
+    "scroll": 170.10025962193808
+  },
+  "Gera/03. Onboarding/HR El Grupo Onboarding.md": {
+    "expandedKeys": [],
+    "cursor": {
+      "from": {
+        "line": 16,
+        "ch": 0
+      },
+      "to": {
+        "line": 16,
+        "ch": 0
+      }
+    },
+    "scroll": 12.288498549433479
+  },
+  "Gera/03. Onboarding/00 - Índice de Onboarding LFC.md": {
+    "expandedKeys": [
+      "item-1-0"
+    ],
+    "cursor": {
+      "from": {
+        "line": 12,
+        "ch": 0
+      },
+      "to": {
+        "line": 12,
+        "ch": 0
+      }
+    },
+    "scroll": 37.0535119451435
+  },
+  "Gera/03. Onboarding/LFC_20260507_Lifecycle Email Development & Data Integration.md": {
+    "cursor": {
+      "from": {
+        "line": 152,
+        "ch": 0
+      },
+      "to": {
+        "line": 152,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-4",
+      "item-2-12"
+    ],
+    "scroll": 283.1942305290763
+  },
+  "Gera/02. Marketing Cloud/02.02 - Referencia Técnica LFC/23 - Dynamic Attributes.md": {
+    "cursor": {
+      "from": {
+        "line": 13,
+        "ch": 0
+      },
+      "to": {
+        "line": 13,
+        "ch": 0
+      }
+    },
+    "scroll": 14.59108280254777
+  },
+  "Gera/02. Marketing Cloud/02.01 - Campaigns/A O C Campaign.md": {
+    "cursor": {
+      "from": {
+        "line": 73,
+        "ch": 0
+      },
+      "to": {
+        "line": 73,
+        "ch": 0
+      }
+    }
+  },
+  "Gera/03. Onboarding/LFC_20260508_Lifecycle Email Build & Journey Setup.md": {
+    "cursor": {
+      "from": {
+        "line": 17,
+        "ch": 0
+      },
+      "to": {
+        "line": 17,
+        "ch": 0
+      }
+    },
+    "scroll": 38.356036960285394
+  },
+  "Gera/05. Glosario/Glosario de Términos y Herramientas LFC.md": {
+    "cursor": {
+      "from": {
+        "line": 38,
+        "ch": 67
+      },
+      "to": {
+        "line": 38,
+        "ch": 67
+      }
+    },
+    "scroll": 0
+  },
+  "2026-08-13.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    }
+  },
+  "Gera/02. Marketing Cloud/02.02 - Referencia Técnica LFC/10 - AMPscript.md": {
+    "cursor": {
+      "from": {
+        "line": 13,
+        "ch": 0
+      },
+      "to": {
+        "line": 13,
+        "ch": 0
+      }
+    },
+    "scroll": 31.943686506670343
+  },
+  "Gera/03. Onboarding/LFC_20260814_La agencia Training - Nearly & Anniversary.md": {
+    "cursor": {
+      "from": {
+        "line": 26,
+        "ch": 0
+      },
+      "to": {
+        "line": 26,
+        "ch": 0
+      }
+    },
+    "scroll": 0
+  },
+  "Gera/02. Marketing Cloud/02.03 - Proceso/Documentos del Proceso LFC.md": {
+    "cursor": {
+      "from": {
+        "line": 15,
+        "ch": 0
+      },
+      "to": {
+        "line": 15,
+        "ch": 0
+      }
+    },
+    "scroll": 42.53132903607582
   }
 }

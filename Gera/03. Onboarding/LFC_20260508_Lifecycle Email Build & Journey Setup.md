@@ -59,7 +59,16 @@ Casi todos los journeys de #LFC en producción siguen el mismo patrón, en este 
 > Por decisión de negocio, los miembros de Canadá reciben la versión de **inglés global**, no la de EE. UU. — vale la pena recordarlo al armar los splits.
 
 > [!note] Qué significan TR y TB
-> `TR` = etapa de registro (trigger/registration); `TB` = etapa de booking. El número (`TR1`, `TR2`… `TB1`, `TB2`…) identifica el touch-point específico dentro de esa etapa.
+> `T` = Trigger (envío automatizado, prefijo común a ambas etapas); `R` = Registration; `B` = Booking. Así, `TR1`/`TR2` = Trigger de la etapa de Registration, touch-point 1/2; `TB1`/`TB2` = Trigger de la etapa de Booking, touch-point 1/2.
+
+Los envíos de lifecycle se organizan comúnmente por etapa de trigger/reminder. La regla de ejecución más importante: **cada activity (email o push) debe usar el asset y la DE del mismo stage.**
+
+| Stage | Significado de negocio | Fuente de audiencia | Email Activity | Push Activity |
+| --- | --- | --- | --- | --- |
+| TR1 | Registro inicial / primera comunicación de campaña | DE de TR1 provista por el Data Team | Asset de email de TR1, si el envío incluye email | Asset de push de TR1, si el envío incluye push |
+| TR2 | Recordatorio de registro para audiencia elegible que aún no se ha registrado | DE de TR2 provista por el Data Team | Asset de email recordatorio de TR2, si aplica | Asset de push recordatorio de TR2, si aplica |
+| TB1 | Recordatorio de booking tras registro, o calificación específica de campaña | DE de TB1 provista por el Data Team | Asset de email de booking de TB1, si aplica | Asset de push de booking de TB1, si aplica |
+| TB2 | Recordatorio de booking final/segundo, cuando aplica | DE de TB2 provista por el Data Team | Asset de email de TB2, si aplica | Asset de push de TB2, si aplica |
 
 Relacionado: [[Journey Builder]] · [[Entry Source]]
 

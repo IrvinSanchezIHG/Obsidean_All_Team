@@ -32,6 +32,10 @@ Entry Source (DE) → Activity (Email/Push) → Exit
 
 Mientras más simple el canvas, más seguro el lanzamiento. Decision splits solo si la campaña específicamente lo requiere — si la lógica de audiencia ya está en la DE, un split la duplica y complica el QA.
 
+### Ejemplo real — Nearly por tier
+
+`Nearly_Elite_Silver_Deployment_2026` (ver [[LFC_20260814_La agencia Training - Nearly & Anniversary]]) es un caso donde sí se justifican varios decision splits: **un Journey por tier** (Silver/Gold/Platinum/Diamond, cada uno con su propia DE de entrada), y dentro de cada Journey una cadena de splits que termina en **un split dedicado por idioma** — cada idioma sale a su propio email. Esto es consistente con lo ya anotado en [[23 - Dynamic Attributes#`region_language_code`|Dynamic Attributes → region_language_code]] sobre cómo se arman esos splits (agrupar `USEN`+`MSEN`, un split por idioma con asset propio).
+
 ## Entry Source
 
 La decisión más crítica del journey: determina quién entra. Antes de activar, verificar nombre de la DE, stage, idioma/mercado, campos requeridos, y si es DE de prueba o producción. La mayoría de errores de lanzamiento vienen de una DE fuente equivocada, no de un canvas roto.
@@ -58,5 +62,6 @@ La validación de la plataforma solo confirma que el setup es técnicamente acep
 [[Monitoring]]
 [[LFC_20260507_Lifecycle Email Development & Data Integration#Paso 7: Construir el Journey desde cero|Manual de Onboarding – Paso 7]]
 [[LFC_20260508_Marketing Cloud Journey Monitoring & Reporting]]
+[[LFC_20260814_La agencia Training - Nearly & Anniversary]]
 
 `#journey-builder #entry-source #sfmc #qa`

@@ -15,7 +15,7 @@ Define estándares de campaña en El Grupo: nomenclatura ([[SFMC Naming Conventi
 
 - [[Content Governance]]
 - [[Compliance]]
-- [[Anniversary Offer Completion Campaign]]
+- [[A O C Campaign]]
 
 > [!info]- 🔗 Enlaces entrantes
 > ```dataview

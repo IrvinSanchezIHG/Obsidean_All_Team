@@ -59,7 +59,7 @@ Necesidad de negocio → Estrategia → Creativo → Delivery → Ejecución →
 - El desarrollo arranca **solo después** de que el creativo en Figma esté aprobado (etapa _"uproot creative"_).
 - Se construye primero en **inglés** — nunca todos los idiomas en paralelo (riesgo de caos y error manual ante cambios de último momento).
 
-### Data / List Pool
+### Data / List Pull
 
 - El **list pull / data list request** define qué campo trae qué valor (`F_name`, `date_expiry`, etc.).
 - Se prepara en paralelo a la revisión del Figma — idealmente listo el mismo día del walkthrough.
@@ -105,11 +105,11 @@ Necesidad de negocio → Estrategia → Creativo → Delivery → Ejecución →
 
 ---
 
-## 4. Proceso GAIL–El Grupo CRM completo (Kapil)
+## 4. Proceso La agencia–El Grupo CRM completo (Kapil)
 
 ### 4.1 Briefing
 
-- El Grupo entrega el **briefing document** (requisitos) a GAIL — compartido con el _client partner_.
+- El Grupo entrega el **briefing document** (requisitos) a La agencia — compartido con el _client partner_.
 - Se destaca que los briefs de El Grupo son de alta calidad: incluyen KPIs, canal, módulos históricos, librería de imágenes.
 
 ### 4.2 Estrategia
@@ -143,9 +143,9 @@ Necesidad de negocio → Estrategia → Creativo → Delivery → Ejecución →
 
 |Ronda|Quién revisa|Idioma|
 |---|---|---|
-|Alpha|Interno GAIL (visual QA + PM)|US English|
+|Alpha|Interno La agencia (visual QA + PM)|US English|
 |Beta|Campaign manager (El Grupo)|US English|
-|Alpha (2)|Interno GAIL|Traducciones|
+|Alpha (2)|Interno La agencia|Traducciones|
 |Beta (2)|Campaign manager (El Grupo)|Traducciones|
 
 - Visual QA tiene checklist propio: headers, footer, T&Cs, links, CTAs, módulos, **accesibilidad (ADA/alt text)**.

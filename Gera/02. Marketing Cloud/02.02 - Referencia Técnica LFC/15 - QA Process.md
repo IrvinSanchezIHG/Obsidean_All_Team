@@ -60,7 +60,15 @@ Sin realizar envíos.
 
 - Tracking  
 
-  
+## Rounds — email antes que journey
+
+Confirmado en [[LFC_20260814_La agencia Training - Nearly & Anniversary#5. QA — dos rounds|sesión Nearly & Anniversary]]: el Journey **no** debe ser la primera validación.
+
+1. **Round 1** — QA del email con la primera versión, **antes** de recibir las traducciones (layout, dynamic content, personalización).
+2. **Round 2** — QA del email ya con las traducciones recibidas (idioma, traducciones correctas).
+3. **Final** — QA integrado con el Journey completo (routing, decision splits, entry criteria, emails asociados) — ver [[Journey Builder#Prueba de Decision Splits (cuando existen)]].
+
+Idealmente no se prueba el Journey hasta tener inglés + todos los idiomas requeridos, para no rehacer validaciones por cambios posteriores.
 
 ## Relacionado  
 
@@ -71,6 +79,8 @@ Sin realizar envíos.
 [[Deployment Plan]]  
 
 [[Tracking]]  
+[[Journey Builder]]  
+[[LFC_20260814_La agencia Training - Nearly & Anniversary]]  
 
   
 
